@@ -208,6 +208,26 @@ VO_V100
 
             Begin Globe
                 AA Yes
+                BeginCentralBody "Earth"
+                    Show Yes
+                    Textured Yes
+                    AltOffset 0.000000
+                    Color #0000ff
+                    SpecularColor #545454
+                    Shininess 40.000000
+                    _AGI_PIBEGINTERRAINIMAGECALLDATA "USER"
+                        BlendMode Value
+                        BlendFactor 1.000000
+                        BlendAltitudeLowerFactor 1.000000
+                        BlendAltitudeUpperFactor 0.000000
+                        BlendAltitudeLowerAltitude 500000.000000
+                        BlendAltitudeUpperAltitude 2500000.000000
+                        TextureRole Day
+                        URI "virtual_earth://virtualearth.net/Aerial.ve"
+                        InBase Yes
+                        BaseOn Yes
+                    End
+                EndCentralBody
                 BeginCentralBody "Sun"
                     Show Yes
                     Textured No
@@ -246,28 +266,6 @@ VO_V100
                         BlendAltitudeUpperAltitude 2500000.000000
                         TextureRole Day
                         URI "file:///Moon.jp2"
-                        BeginImageSetDefOn
-                        End
-                        InBase Yes
-                        BaseOn Yes
-                    End
-                EndCentralBody
-                BeginCentralBody "Earth"
-                    Show Yes
-                    Textured Yes
-                    AltOffset 0.000000
-                    Color #0000ff
-                    SpecularColor #545454
-                    Shininess 40.000000
-                    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
-                        BlendMode Value
-                        BlendFactor 1.000000
-                        BlendAltitudeLowerFactor 1.000000
-                        BlendAltitudeUpperFactor 0.000000
-                        BlendAltitudeLowerAltitude 10000.000000
-                        BlendAltitudeUpperAltitude 100000.000000
-                        TextureRole Day
-                        URI "file:///Earth_PE_b.jp2"
                         BeginImageSetDefOn
                         End
                         InBase Yes
@@ -355,16 +353,16 @@ VO_V100
             End
             Begin CentralBodyOpts
                 BeginCentralBody
+                    Name "Earth"
+                    ShowLabel No
+                EndCentralBody
+                BeginCentralBody
                     Name "Sun"
                     ShowLabel No
                 EndCentralBody
                 BeginCentralBody
                     Name "Moon"
                     ShowLabel Yes
-                EndCentralBody
-                BeginCentralBody
-                    Name "Earth"
-                    ShowLabel No
                 EndCentralBody
             End CentralBodyOpts
             isShowingOverlay            Yes
@@ -404,6 +402,11 @@ VO_V100
                     Scale 1.000000
                     BorderAttachTypeX Max
                     BorderAttachTypeY Min
+                End
+                Begin Overlay
+                    OverlayReserveId  1
+                    BorderAttachTypeX Max
+                    BorderAttachTypeY Max
                 End
             End
             IsShowingTimeDisplay     Yes
@@ -453,7 +456,7 @@ VO_V100
             GridVertTextAlign        Border
             IsShowingPickAnnotation  Yes
             UsePickAnnoPosition      No
-            PickAnnoPosition         10 65
+            PickAnnoPosition         440 426
             PickAttachX              Min
             PickAttachY              Min
             PickAnnoFontSize         1
@@ -673,6 +676,10 @@ VO_V100
             RubberBandLineWidth       2.000000
             RubberBandCrosshairSize   16
             RubberBandRGB             0.660000 0.660000 0.660000
+    _AGI_PIBEGINTYPEMGR3DSCENEDATA
+        Begin 3dScene
+        End
+    End
             Begin View
                 ViewName                STKVOInitialView
                 ViewTime                0.000000
@@ -682,21 +689,21 @@ VO_V100
 					BEGIN	AXES
 						Type	AXES_LINKTO
 						Name	TopoCentric
-						RelativePath	Aircraft/B747LAX_Melbourne
+						RelativePath	Aircraft/B747LAX_Heathrow
 					END	AXES
                 End
                 Begin FromViewCrdnPoint
 					BEGIN	POINT
 						Type	POINT_LINKTO
 						Name	Center
-						RelativePath	Aircraft/B747LAX_Melbourne
+						RelativePath	Aircraft/B747LAX_Heathrow
 					END	POINT
                 End
                 Begin ToViewCrdnPoint
 					BEGIN	POINT
 						Type	POINT_LINKTO
 						Name	Center
-						RelativePath	Aircraft/B747LAX_Melbourne
+						RelativePath	Aircraft/B747LAX_Heathrow
 					END	POINT
                 End
                 fov                           0.785398
@@ -710,24 +717,24 @@ VO_V100
                 ZoomSpeed               0.000000
                 GlobeDetailLevel        1
                 UseLayer                Yes
-                FromName                "Aircraft/B747LAX_Melbourne"
+                FromName                "Aircraft/B747LAX_Heathrow"
                 FromRegPosAttView       "Point"
-                FromPosition            15990222.160428969000000000  -7596420.062620034400000000  -119062605.029459130000000000
-                FromOffset              16111897.783447461000000000  -13975269.980473079000000000  -118758952.166004430000000000
-                FromOffsetLLR           -0.071168009769270860  -0.133387087868887950  120658982.843295590000000000
-                ToName                  "Aircraft/B747LAX_Melbourne"
+                FromPosition            46741966.423389778000000000  -8051314.412090698300000000  -3832201.595158659900000000
+                FromOffset              43898420.993545808000000000  -9562514.269570199800000000  -9329855.325814411000000000
+                FromOffsetLLR           0.201273948896592640  -0.703712498878624190  45886373.198183186000000000
+                ToName                  "Aircraft/B747LAX_Heathrow"
                 ToRegPosAttView         "Point"
-                ToPosition              -121675.623018491550000000  6378849.917853044300000000  -303652.863454705570000000
-                ToOffset                -0.000000000000000000  0.000000000000000000  0.000000000000000000
+                ToPosition              2843545.429843965900000000  1511199.857479502000000000  5497653.730655751200000000
+                ToOffset                0.000000000000000000  0.000000000000000000  0.000000000000000000
                 ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
                 ConstantDistanceType    None
                 ConstantDistanceValue   1.000000
-                UpVector                -0.009578991912186339  0.992949848636372590  -0.118147539148945880
-                ViewRad                 120658982.843295600000000000
-                ViewQuat                0.0666019 0.0354974 -0.0023710 0.9971452
+                UpVector                0.258034438850772150  0.283385317785714460  0.923640076020122550
+                ViewRad                 45886373.198183194000000000
+                ViewQuat                0.3428972 -0.0943120 0.0346251 0.9339849
                 ViewCoordSystem         From
                 ViewFromToMode          FromTo
-                ViewToCBIMtx            -0.000458470102536607 -0.047877666794569174 -0.998853101725911240 -0.999818427790752810 -0.019006176455001994 0.001369929410134696  -0.019049967327859241 0.998672365833194520 -0.047860259777167624
+                ViewToCBIMtx            0.762620947650499480 0.406821445947876110 -0.502897207510176970 -0.470319507316349690 0.882495947002106980 0.000681588263581376  0.444082032109339890 0.236002573379474560 0.864345957424401790
                 UseUpAxis               Yes
                 UpAxisType              Z
                 UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
@@ -738,7 +745,7 @@ VO_V100
                 MinAngleToUpAxis        0.0087266
                 InitUpAxisUp            Yes
                 TempUpAxisUp            Yes
-                CrossAxis               -0.1329919 -0.9911171 0.0000000
+                CrossAxis               -0.6470527 -0.7624453 0.0000000
                 DefaultOffset           205.8986425
                 BaseDefaultOffset       164.7189140
             End View

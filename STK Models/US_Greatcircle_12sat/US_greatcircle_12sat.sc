@@ -105,9 +105,9 @@ BEGIN Animation
 
     StartTime          3 Dec 2013 01:00:00.000000000
     EndTime            25 Feb 2014 13:00:00.000000000
-    CurrentTime        4 Dec 2013 12:12:00.000000000
+    CurrentTime        6 Dec 2013 01:54:30.000000000
     Direction          Forward
-    UpdateDelta        180.000000
+    UpdateDelta        10.000000
     RefreshDelta       0.010000
     XRealTimeMult      1.000000
     RealTimeOffset     0.000000
@@ -1311,28 +1311,9 @@ BEGIN SubObjects
 
 Class Aircraft
 
-	B747ATL_frankfurt
-	B747ATL_Heathrow
-	B747ATL_paris
-	B747JFK_frankfurt
-	B747JFK_Heathrow
-	B747JFK_Paris
-	B747LAX_Aukland
-	B747LAX_Beijing
-	B747LAX_Brisbane
-	B747LAX_frankfurt
-	B747LAX_Guangzhou
 	B747LAX_Heathrow
-	B747LAX_Manila
-	B747LAX_Melbourne
 	B747LAX_Narita
-	B747LAX_Paris
-	B747LAX_SouthKorea
 	B747LAX_Sydney
-	B747seattle_dubai
-	B747SLO_frankfurt
-	B747SLO_Heathrow1
-	B747SLO_Paris
 
 END Class
 
@@ -1392,67 +1373,8 @@ BEGIN References
         *
         Chain/Chain3
     END Instance
-    Instance Aircraft/B747ATL_Heathrow
-        Aircraft/B747ATL_Heathrow
-    END Instance
-    Instance Aircraft/B747ATL_Heathrow/Transmitter/adsb_out13
-        Aircraft/B747ATL_Heathrow/Transmitter/adsb_out13
-    END Instance
-    Instance Aircraft/B747ATL_frankfurt
-        Aircraft/B747ATL_frankfurt
-    END Instance
-    Instance Aircraft/B747ATL_frankfurt/Transmitter/adsb_out1
-        Aircraft/B747ATL_frankfurt/Transmitter/adsb_out1
-    END Instance
-    Instance Aircraft/B747ATL_paris
-        Aircraft/B747ATL_paris
-    END Instance
-    Instance Aircraft/B747ATL_paris/Transmitter/adsb_out2
-        Aircraft/B747ATL_paris/Transmitter/adsb_out2
-    END Instance
-    Instance Aircraft/B747JFK_Heathrow
-        Aircraft/B747JFK_Heathrow
-    END Instance
-    Instance Aircraft/B747JFK_Heathrow/Transmitter/adsb_out3
-        Aircraft/B747JFK_Heathrow/Transmitter/adsb_out3
-    END Instance
-    Instance Aircraft/B747JFK_Paris
-        Aircraft/B747JFK_Paris
-    END Instance
-    Instance Aircraft/B747JFK_Paris/Transmitter/adsb_out4
-        Aircraft/B747JFK_Paris/Transmitter/adsb_out4
-    END Instance
-    Instance Aircraft/B747JFK_frankfurt
-        Aircraft/B747JFK_frankfurt
-    END Instance
-    Instance Aircraft/B747JFK_frankfurt/Transmitter/adsb_out5
-        Aircraft/B747JFK_frankfurt/Transmitter/adsb_out5
-    END Instance
-    Instance Aircraft/B747LAX_Aukland
-        Aircraft/B747LAX_Aukland
-    END Instance
-    Instance Aircraft/B747LAX_Aukland/Transmitter/adsb_out62141
-        Aircraft/B747LAX_Aukland/Transmitter/adsb_out62141
-    END Instance
-    Instance Aircraft/B747LAX_Beijing
-        Aircraft/B747LAX_Beijing
-    END Instance
-    Instance Aircraft/B747LAX_Beijing/Transmitter/adsb_out621
-        Aircraft/B747LAX_Beijing/Transmitter/adsb_out621
-    END Instance
-    Instance Aircraft/B747LAX_Brisbane
-        Aircraft/B747LAX_Brisbane
-    END Instance
-    Instance Aircraft/B747LAX_Brisbane/Transmitter/adsb_out6214
-        Aircraft/B747LAX_Brisbane/Transmitter/adsb_out6214
-    END Instance
-    Instance Aircraft/B747LAX_Guangzhou
-        Aircraft/B747LAX_Guangzhou
-    END Instance
-    Instance Aircraft/B747LAX_Guangzhou/Transmitter/adsb_out62
-        Aircraft/B747LAX_Guangzhou/Transmitter/adsb_out62
-    END Instance
     Instance Aircraft/B747LAX_Heathrow
+        *
         Aircraft/B747LAX_Heathrow
         Chain/Chain3
     END Instance
@@ -1460,72 +1382,17 @@ BEGIN References
         Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Chain/Chain3
     END Instance
-    Instance Aircraft/B747LAX_Manila
-        Aircraft/B747LAX_Manila
-    END Instance
-    Instance Aircraft/B747LAX_Manila/Transmitter/adsb_out621411
-        Aircraft/B747LAX_Manila/Transmitter/adsb_out621411
-    END Instance
-    Instance Aircraft/B747LAX_Melbourne
-        *
-        Aircraft/B747LAX_Melbourne
-    END Instance
-    Instance Aircraft/B747LAX_Melbourne/Transmitter/adsb_out6213
-        Aircraft/B747LAX_Melbourne/Transmitter/adsb_out6213
-    END Instance
     Instance Aircraft/B747LAX_Narita
         Aircraft/B747LAX_Narita
     END Instance
     Instance Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
         Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
     END Instance
-    Instance Aircraft/B747LAX_Paris
-        Aircraft/B747LAX_Paris
-    END Instance
-    Instance Aircraft/B747LAX_Paris/Transmitter/adsb_out7
-        Aircraft/B747LAX_Paris/Transmitter/adsb_out7
-    END Instance
-    Instance Aircraft/B747LAX_SouthKorea
-        Aircraft/B747LAX_SouthKorea
-    END Instance
-    Instance Aircraft/B747LAX_SouthKorea/Transmitter/adsb_out61
-        Aircraft/B747LAX_SouthKorea/Transmitter/adsb_out61
-    END Instance
     Instance Aircraft/B747LAX_Sydney
         Aircraft/B747LAX_Sydney
     END Instance
     Instance Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-    END Instance
-    Instance Aircraft/B747LAX_frankfurt
-        Aircraft/B747LAX_frankfurt
-    END Instance
-    Instance Aircraft/B747LAX_frankfurt/Transmitter/adsb_out8
-        Aircraft/B747LAX_frankfurt/Transmitter/adsb_out8
-    END Instance
-    Instance Aircraft/B747SLO_Heathrow1
-        Aircraft/B747SLO_Heathrow1
-    END Instance
-    Instance Aircraft/B747SLO_Heathrow1/Transmitter/adsb_out9
-        Aircraft/B747SLO_Heathrow1/Transmitter/adsb_out9
-    END Instance
-    Instance Aircraft/B747SLO_Paris
-        Aircraft/B747SLO_Paris
-    END Instance
-    Instance Aircraft/B747SLO_Paris/Transmitter/adsb_out10
-        Aircraft/B747SLO_Paris/Transmitter/adsb_out10
-    END Instance
-    Instance Aircraft/B747SLO_frankfurt
-        Aircraft/B747SLO_frankfurt
-    END Instance
-    Instance Aircraft/B747SLO_frankfurt/Transmitter/adsb_out11
-        Aircraft/B747SLO_frankfurt/Transmitter/adsb_out11
-    END Instance
-    Instance Aircraft/B747seattle_dubai
-        Aircraft/B747seattle_dubai
-    END Instance
-    Instance Aircraft/B747seattle_dubai/Transmitter/adsb_out12
-        Aircraft/B747seattle_dubai/Transmitter/adsb_out12
     END Instance
     Instance Chain/Chain3
         Chain/Chain3
