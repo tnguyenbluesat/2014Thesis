@@ -91,11 +91,11 @@ BEGIN Extensions
 
 BEGIN Graphics
 
-	ShowGfx           Off
+	ShowGfx           On
 	Relative          Off
 	ShowBoresight     On
 	BoresightMarker   4
-	BoresightColor    #ffffff
+	BoresightColor    #0effff
 
 END Graphics
     END Graphics

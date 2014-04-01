@@ -147,7 +147,7 @@ BEGIN Extensions
 
 BEGIN Graphics
 
-	ShowGfx           Off
+	ShowGfx           On
 	Relative          Off
 	ShowBoresight     On
 	BoresightMarker   4

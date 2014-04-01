@@ -1,0 +1,171 @@
+VO_V100
+    Begin WinFonts
+        Font "Lucida Console,12,0,0"
+        Font "Lucida Console,14,0,0"
+        Font "Lucida Console,20,0,0"
+    End
+    HideCursor               No
+    IsShowingModels          Yes
+    RelativeModelScale       1.000000
+    AbsoluteModelScale       100.000000
+    IsUsingDetailThresholds  Yes
+    DetailLevel0             70000.000000
+    DetailLevel1             140000.000000
+    DetailLevel2             28000000.000000
+    DetailLevel3             56000000.000000
+    DisableDefKbdActions     No
+    KMLListView 0
+    UseModelShaders Yes
+    ChunkTerrainTextureCacheSizeMb  64
+    ChunkTerrainCacheSizeMb  32
+    ReadAllNeededTextures    No
+    UseStoredViewTime        Yes
+    UseStoredViewImageSets   No
+    UseSmoothTransitions     No
+    RunStoredViewConFile     No
+    MaintainViewTimeOrder    Yes
+    RenderFromPBufferToVOWindow No
+    DefaultBingServerName       virtualearth.net
+    BingServerName       virtualearth.net
+
+    Begin DefaultViewAngles
+        AIRCRAFT	0.000000	30.000000
+        AREATARGET	0.000000	90.000000
+        FACILITY	0.000000	30.000000
+        GROUNDVEHICLE	0.000000	30.000000
+        LAUNCHVEHICLE	0.000000	30.000000
+        MISSILE	0.000000	30.000000
+        PLACE	0.000000	90.000000
+        PLANET	0.000000	0.000000
+        SATELLITE	0.000000	0.000000
+        SENSOR	0.000000	0.000000
+        SHIP	0.000000	30.000000
+        TARGET	0.000000	90.000000
+    End DefaultViewAngles
+
+    Begin EditData
+        AxisScale       20.000000
+        PointScale      5.000000
+        Linewidth       1.000000
+        LineStyle       0
+        ColorRGB        1.000000 1.000000 0.000000
+        AllowNegativeAlt No
+    End EditData
+
+    Begin DefaultRefCrdnData
+        Begin Point
+            Begin CentralBodyCrdns
+            End
+        End
+        Begin Direction
+        End
+        Begin Untethered
+        End
+    End DefaultRefCrdnData
+
+    Begin DefaultRefSystemData
+        Begin Point
+        End
+        Begin Direction
+        End
+        Begin Untethered
+        End
+    End DefaultRefSystemData
+
+    Begin ViewPathManager
+        EnableLighting              Yes
+        ShowCameraObj               Yes
+        ShowKeyframeCtrlPts         Yes
+        KeyframeCtrlPtColor         #ffffff
+        KeyframeCtrlPtSize          10
+        ShowKeyframeOrientVecs      No
+        KeyframeOrientVecSize       50
+        ShowNonKeyframeCtrlPts      Yes
+        NonKeyframeCtrlPtColor      #ffff00
+        NonKeyframeCtrlPtSize       8
+        RippleTimeChanges           Yes
+        OptimizeWhileEditing        Yes
+    End ViewPathManager
+    TextAntialias               No
+    TextShadowStyle             Dark
+    TextShadowColor             #000000
+
+    SurfaceLineType             Surface
+    SurfaceLineFadeFactor       1.000000
+    CompToolsDontRender         Yes
+
+    Begin Async3dPickOptions
+        SpecialKeysIgnore No
+    End Async3dPickOptions
+    _AGI_PIBEGINTYPEMGR3DINPDEVMODE
+    End
+    EarthShapeModel          "WGS84"
+    Begin View
+        ViewName                HomeView
+        ViewTime                0.000000
+        ViewUpdateDelta         60.000000
+        CentralBody             Earth
+        Begin ViewCrdnAxes
+			BEGIN	AXES
+				Type	AXES_LINKTO
+				Name	Inertial
+				AbsolutePath	CentralBody/Earth
+			END	AXES
+        End
+        Begin FromViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				AbsolutePath	CentralBody/Earth
+			END	POINT
+        End
+        Begin ToViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				AbsolutePath	CentralBody/Earth
+			END	POINT
+        End
+        fov                           0.785398
+        FarNearPlaneDistanceRatio     1000.000000
+        NearPlaneDistance             1.000000
+        FarPlaneDistance              10000000000.000000
+        UseArcBallRotateSpeedOpt      No
+        ArcBallRotateSpeed            0.000000
+        ArcBallRadius           0.900000
+        ArcBallRotateMode       From
+        ZoomSpeed               0.000000
+        GlobeDetailLevel        1
+        UseLayer                Yes
+        FromName                "Earth"
+        FromRegPosAttView       "Point"
+        FromPosition            -19184099.712151650000000000  -29369361.992644396000000000  0.000000000000000000
+        FromOffset              0.000000000000000000  0.000000000000000000  0.000000000000000000
+        FromOffsetLLR           0.000000000000000000  -2.149418594362974200  35079753.500000000000000000
+        ToName                  "Earth"
+        ToRegPosAttView         "Point"
+        ToPosition              0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ToOffset                0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ConstantDistanceType    None
+        ConstantDistanceValue   1.000000
+        UpVector                0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ViewRad                 35079753.500000000000000000
+        ViewQuat                0.8794518 0.0000000 0.0000000 0.4759879
+        ViewCoordSystem         From
+        ViewFromToMode          FromTo
+        ViewToCBIMtx            0.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000  0.000000000000000000 0.000000000000000000 0.000000000000000000
+        UseUpAxis               Yes
+        UpAxisType              Z
+        UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+        OverUpAxis              No
+        LockInViewDir           No
+        NoZoom                  No
+        NoPan                   No
+        MinAngleToUpAxis        0.0087266
+        InitUpAxisUp            Yes
+        TempUpAxisUp            Yes
+        CrossAxis               1.0000000 0.0000000 0.0000000
+        DefaultOffset           35079753.5000000
+        BaseDefaultOffset       6378137.0000000
+    End View

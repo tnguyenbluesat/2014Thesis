@@ -1537,12 +1537,12 @@ BEGIN Extensions
             AttributeType    Basic
             ScenarioEpoch 3 Dec 2013 01:00:00.000000
 
-            ShowGfx          Off
+            ShowGfx          On
 
             IntvlHideShowAll Off
 
             BEGIN DefaultAttributes
-                Show                 Off
+                Show                 On
                 Inherit              On
                 ShowLabel            On
                 ShowGndTrack         On
@@ -1551,10 +1551,10 @@ BEGIN Extensions
                 ShowOrbitMarker      On
                 ShowElsetNum         Off
                 ShowSpecialSwath     On
-                MarkerColor          #0000ff
-                GroundTrackColor     #0000ff
-                SwathColor           #0000ff
-                LabelColor           #0000ff
+                MarkerColor          #0effff
+                GroundTrackColor     #0effff
+                SwathColor           #0effff
+                LabelColor           #0effff
                 LineStyle            0
                 LineWidth            1.000000
                 MarkerStyle          18

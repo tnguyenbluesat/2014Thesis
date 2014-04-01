@@ -208,26 +208,6 @@ VO_V100
 
             Begin Globe
                 AA Yes
-                BeginCentralBody "Earth"
-                    Show Yes
-                    Textured Yes
-                    AltOffset 0.000000
-                    Color #0000ff
-                    SpecularColor #545454
-                    Shininess 40.000000
-                    _AGI_PIBEGINTERRAINIMAGECALLDATA "USER"
-                        BlendMode Value
-                        BlendFactor 1.000000
-                        BlendAltitudeLowerFactor 1.000000
-                        BlendAltitudeUpperFactor 0.000000
-                        BlendAltitudeLowerAltitude 500000.000000
-                        BlendAltitudeUpperAltitude 2500000.000000
-                        TextureRole Day
-                        URI "virtual_earth://virtualearth.net/Aerial.ve"
-                        InBase Yes
-                        BaseOn Yes
-                    End
-                EndCentralBody
                 BeginCentralBody "Sun"
                     Show Yes
                     Textured No
@@ -266,6 +246,28 @@ VO_V100
                         BlendAltitudeUpperAltitude 2500000.000000
                         TextureRole Day
                         URI "file:///Moon.jp2"
+                        BeginImageSetDefOn
+                        End
+                        InBase Yes
+                        BaseOn Yes
+                    End
+                EndCentralBody
+                BeginCentralBody "Earth"
+                    Show Yes
+                    Textured Yes
+                    AltOffset 0.000000
+                    Color #0000ff
+                    SpecularColor #545454
+                    Shininess 40.000000
+                    _AGI_PIBEGINTERRAINIMAGECALLDATA "USER"
+                        BlendMode Value
+                        BlendFactor 1.000000
+                        BlendAltitudeLowerFactor 1.000000
+                        BlendAltitudeUpperFactor 0.000000
+                        BlendAltitudeLowerAltitude 500000.000000
+                        BlendAltitudeUpperAltitude 2500000.000000
+                        TextureRole Day
+                        URI "virtual_earth://virtualearth.net/Aerial.ve"
                         BeginImageSetDefOn
                         End
                         InBase Yes
@@ -353,10 +355,6 @@ VO_V100
             End
             Begin CentralBodyOpts
                 BeginCentralBody
-                    Name "Earth"
-                    ShowLabel No
-                EndCentralBody
-                BeginCentralBody
                     Name "Sun"
                     ShowLabel No
                 EndCentralBody
@@ -364,9 +362,18 @@ VO_V100
                     Name "Moon"
                     ShowLabel Yes
                 EndCentralBody
+                BeginCentralBody
+                    Name "Earth"
+                    ShowLabel No
+                EndCentralBody
             End CentralBodyOpts
             isShowingOverlay            Yes
             Begin Overlays
+                Begin Overlay
+                    OverlayReserveId  1
+                    BorderAttachTypeX Max
+                    BorderAttachTypeY Max
+                End
                 Begin Overlay
                     URI "file:///AGI_logo_big.ppm"
                     Show No
@@ -402,11 +409,6 @@ VO_V100
                     Scale 1.000000
                     BorderAttachTypeX Max
                     BorderAttachTypeY Min
-                End
-                Begin Overlay
-                    OverlayReserveId  1
-                    BorderAttachTypeX Max
-                    BorderAttachTypeY Max
                 End
             End
             IsShowingTimeDisplay     Yes
@@ -456,7 +458,7 @@ VO_V100
             GridVertTextAlign        Border
             IsShowingPickAnnotation  Yes
             UsePickAnnoPosition      No
-            PickAnnoPosition         440 426
+            PickAnnoPosition         10 65
             PickAttachX              Min
             PickAttachY              Min
             PickAnnoFontSize         1
