@@ -1,0 +1,28 @@
+\section{Trends and Analysis}
+\input{initialConstellations}
+\input{altitudeVariations}
+\input{inclinationVariations}
+\input{perPlaneVariations}
+
+\section{Access Periodicity} \label{sec:periodicity_stats}
+The distributions of coverage periods for all constellations tested were strongly modal, with the majority having one dominant mode. Figure \ref{fig:allfitdist_Heathrow}, from the reference constellation observing the LAX-Heathrow flight, shows a typical distribution. The periods shown all fall within a tight band around the mean, with some outliers and modes to the left and right of the mean. After applying \verb|allfitdist| \cite{sheppard12}, it was found that the Student's t distribution with a location and scale transformation applied, as shown in Figure \ref{fig:allfitdist_Heathrow}. An analysis of the Student's t distribution is given in Appendix \ref{sec:stats}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale = 0.85]{Pictures/allfitdist_Heathrow.png}
+	
+	\caption{Fitted distributions of the periodicity of Access times for the LAX-Heathrow flight from the reference constellation. }
+	\label{fig:allfitdist_Heathrow}
+\end{figure} 
+For constellations with more than 12 satellites, the extracted parameters from \verb|allfitdist| yielded values for the degrees of freedom, $\nu$, for which the variance is undefined. Empirically, this was observed as the case if the band of most probable periods was too narrow for analysis. In these cases, for the purposes of comparative analysis, the `variance' score in the weighted decision matrix was given the highest score, 10.
+
+It was found that for constellations with a lower number of satellites, there was less of a dominant node and more of a `spread' of distributions. Figure \ref{fig:allfitdist_Heathrow6sat} shows the histogram for a six-satellite constellation, showing a larger `spread' of results. In these cases, \verb|allfitdist| yielded different distributions of best fit, as shown in Figure \ref{fig:allfitdist_Heathrow6sat}. The standard deviations from these distributions were extracted computationally
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale = 0.8]{Pictures/allfitdist_Heathrow6sat.png}
+	
+	\caption{Fitted distributions of the periodicity of Access times for the LAX-Heathrow flight from the reference constellation. }
+	\label{fig:allfitdist_Heathrow6sat}
+\end{figure} 

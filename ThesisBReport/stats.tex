@@ -1,0 +1,28 @@
+\section{Statistical Models} \label{sec:stats}
+\subsection{Student's t-Location Scale Distribution}
+The majority of data analysed statistically in this thesis found that a Students t distribution with a location-scale transformation provided the best fit statistical model. The periodicity analysis of satellite-revisit time showed slight bimodal behaviour, resulting in heavy tails, typical of a `t Location-Scale Distribution' (CITE). 
+
+The Student's t distribution probability density function (PDF) is given by
+\begin{align}
+	f_X(x) = \dfrac{\Gamma\left(\frac{\nu+ 1}{2}\right)}{\sqrt{v\pi} \Gamma \left(\frac{\nu}{2}\right)} \left( 1 + \dfrac{x^2}{\nu} \right) ^{-\frac{\nu + 1}{2}} \label{eqn:students_t}
+\end{align}
+where $\nu$ is the parameter defined as the `degrees of freedom' and $\Gamma$ is the standard gamma function. To shift and scale the data, we need to apply the location scale transformation to the random variable $X$
+\begin{align}
+	Y = \sigma X + \mu \label{eqn:locscale_transform}
+\end{align}
+the probability density function then becomes 
+\begin{align}
+	f_Y(y) = \dfrac{\Gamma\left(\frac{\nu+ 1}{2}\right)}{\sigma\sqrt{v\pi} \Gamma \left(\frac{\nu}{2}\right)} \left( 1 + \dfrac{1}{\nu} \left(\dfrac{x - \mu }{\sigma}\right)^2 \right) ^{-\frac{\nu + 1}{2}} \label{eqn:t_locscale}
+\end{align}
+In Section \ref{sec:prob_distro}, Equation (\ref{eqn:t_locscale}) is shown to be distribution of best fit for most sets of data of interest. The errors observed between the fitted distribution and the observed frequencies were within acceptable ranges for the purposes described later in Section \ref{sec:prob_distro}.
+
+The parameters analysed in Section \ref{sec:prob_distro} required a measure of the variance of the data. For the Student's t distribution described by Equation (\ref{eqn:students_t}), this is given by
+\begin{align}
+	\text{Variance} = \dfrac{\nu}{\nu-2}.
+\end{align}
+With the location-scale transformation (\ref{eqn:locscale_transform}), the variance is described in terms of the three parameters $\nu, \mu$ and $\sigma$ by
+\begin{align}
+	\text{Variance} = \dfrac{\nu}{\nu-2}.
+\end{align}
+
+CALCULATE VARIANCE MANUALLY?

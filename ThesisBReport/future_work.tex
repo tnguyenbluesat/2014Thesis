@@ -1,0 +1,16 @@
+\section{Future Work}
+The following work should be conducted in order to fully develop a set of mission and system specifications for a CubeSat based ADS-B system.
+\subsection{Full Parametric Study}
+The findings of this thesis are as a result of one-dimensional parameter studies. As such they are indicative of general trends observed when varying only one constellation parameter at a time. This only gives an indication of what the best possible satellite configuration could be. In order to determine the global best performer, a full n-dimensional parametric study should be carried out, simulating all possible variations of all the orbital parameters. The simulations created for this thesis form a good basis from which a full parametric set of simulations can be generated.
+
+\subsection{Transmitter Receiver Model Improvements}
+As noted in Section \ref{sec:perfMetrics}, the simple transmitter and receiver models used produced an unrealistic link-budget characterisation for ADS-B communication links. Although received isotropic power is a good metric to compare constellation performance, the link budget results in this thesis do not represent realistic system behaviour. Incorporating a more sophisticated antenna design and better radio-frequency front-end into the communication models would more accurately characterise ADS-B signal performance. This would be necessary in further systems analysis and design.
+
+\subsection{Ground Link}
+Further study needs to be performed into how to establish a regular downlink between the satellites in the constellation and a ground station. The regularity of this downlink would determine the `total system update rate' or the speed with which data on all detected flights can be disseminated to ANSPs and therefore general use. Potential methods could be to
+\begin{itemize}
+	\item Use network of community-run amateur radio ground stations
+	\item Transmit downlink packets to currently in-orbit communication constellations, such as Iridium or Globalstar
+	\item Relay raw ADS-B data to airports and terrestrial ADS-B receivers.
+\end{itemize}
+The benefits and potential performance of each option needs to be further explored before a full space-based ADS-B solution can be designed.

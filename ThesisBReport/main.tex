@@ -1,0 +1,192 @@
+%Assignment 2
+
+\documentclass[12pt, a4paper, subeqn]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title{Thesis A}
+\author{Thien Huynh Nguyen\\
+	Student Number: 3288816}
+\date{\today}
+
+% Comment the following to have chapters numbered without interruption (numbering through parts)
+%\makeatletter\@addtoreset{section}{part}\makeatother%
+
+\topmargin=-25mm
+\headheight = 30mm
+\headsep = 5mm
+\textheight=215mm
+\oddsidemargin=-5mm
+\textwidth=170mm
+\footskip=15mm
+\marginparwidth = 0mm
+%\footheight=10mm
+
+\parskip=12pt
+\parindent=0pt
+
+\setlength{\jot}{12pt}
+
+\setcounter{tocdepth}{2}
+
+
+\usepackage{amsmath,amsfonts,amssymb,verbatim, fancyvrb}
+\usepackage{color}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{pbox}
+\usepackage{placeins, float}
+\usepackage{multirow}
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+
+
+%nomenclature
+\usepackage{nomencl}%   nomenclature generation via makeindex
+\makenomenclature
+\usepackage{longtable}
+
+%subifugres
+\usepackage{subcaption}
+
+%set font size and spacing
+\usepackage{setspace}
+\onehalfspacing
+
+%Equation and figure numbering
+\usepackage{booktabs}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+
+%Number mathetmatical Theorems
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+
+%Cite references
+\usepackage{cite}
+\usepackage[nottoc,numbib]{tocbibind}
+
+%array
+\usepackage{array}
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+\renewcommand{\arraystretch}{1.4}
+
+
+
+
+%section header spacing
+\usepackage[compact]{titlesec} 
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}
+
+%Header and footer
+\usepackage{fancyhdr, lastpage, datetime, wrapfig}
+\longdate
+
+
+
+%\usepackage{glossaries}
+%  \makeglossaries
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+
+\begin{comment}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[c]{ 
+\begin{minipage}{0.27\paperwidth}
+\begin{flushleft}
+\includegraphics[height=17mm]{UNSWlogo.png}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.27\paperwidth}
+\begin{center}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.27\paperwidth}
+\begin{flushright} \parbox{50mm}{	\begin{tabbing}
+		\textbf{Student Number:} \=  3288816 \\
+		\textbf{Date:} \> \today \\
+		\textbf{Thesis} \> \textbf{A}  \\
+		\textbf{Page:} \> \textbf{\thepage} of \pageref{LastPage}
+	\end{tabbing}}
+\end{flushright}
+\end{minipage}
+}
+
+\end{comment}
+\renewcommand{\footrulewidth}{0pt}
+
+\begin{document}
+\doublespacing
+\pagenumbering{roman}
+\include{TitlePage}
+\include{abstract}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\fancyhead[L]{\textit{NOMENCLATURE}}
+\include{nomenclature}
+\fancyhead[L]{\slshape \leftmark}
+
+\pagenumbering{arabic}
+
+\include{introduction}
+
+\part{Background Theory and Literature Review} \label{part:lit_review}
+A number of fundamental concepts of the nature of ADS-B signals and Cubesat constellation design needed to be researched before the needs of a space based ADS-B system could be properly defined. Current regulatory requirements for terrestrial ADS-B receivers were researched in order to define a space based analogue. Satellite constellations with similar coverage requirements were examined in order to develop a design framework.
+
+Academic and commercial groups have already shown interest in the concept of a space-based ADS-B network, with more than one technology demonstrator currently in orbit. Their research proved that the technology is possible. However there has been little research into the design of a satellite constellation specifically tailored for the needs of aircraft using ADS-B.  
+ 
+\include{background_theory}
+\include{lit_review}
+
+\newpage
+\part{Experimental Method and Design}
+\label{part:exp_method}
+In general terms we were interested in the ability for a given constellation of LEO satellites to provide ADS-B coverage in the absence of land-based ADS-B receivers. To evaluate this, popular flights over the Atlantic and Pacific Oceans were simulated in STK. The simulation was extended to include communication links to LEO satellites. Different satellite constellations were simulated and the link-budget data for each test case was collected. The efficacy of a constellation was determined by comparing the aggregated access times and link budgets for the ADS-B links between a given trans-oceanic flight and the overhead satellites.
+\include{design_drivers}
+\include{parameters}
+\include{tools}
+\include{data_assumptions}
+\part{Results and Analysis}\label{part:results}
+The input parameters detailed in Part \ref{part:exp_method} were simulated in STK and their performance evaluated using tools in Matlab and Microsoft Excel. Initially a set of exotic constellations were tested and ruled out as being impractical and ineffective. Parameters from the reference case detailed in Section \ref{sec:ref_case} were then varied to see the effect on the performance metrics used to define the effectiveness of a space-based ADS-B system. 
+
+\include{results}
+\include{data_processing}
+\include{analysis}
+
+\include{weight_matrix}
+
+\part{Conclusions and Future Work}\label{part:concl}
+\include{conclusions}
+\include{future_work}
+
+%\include{LinkBudget}
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\newpage
+\addcontentsline{toc}{part}{Appendices}
+\part*{Appendices}
+\appendix
+\input{app_allParameters}
+\include{stats}
+%\section{CubeSat Drawings} \label{app:cubesat}
+
+
+
+\end{document}

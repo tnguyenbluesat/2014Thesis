@@ -1,0 +1,28 @@
+\section{Link Budget Analysis}
+\begin{itemize}
+	\item Path Loss
+\end{itemize}
+
+\subsection{Potential model}
+\textbf{Proba V} \cite{TheEuropeanSpaceAgency2013}\\
+Instrument: The ADS-B device is provided by DLR and SES Techcom of Luxembourg, the main objective is to test (space qualify) the ADS-B electronic boards in flight-representative configuration to evaluate TID (Total Ionizing Dose). The basic design concept of the ADS-B receiver (1090ES RX) is a single conversion superheterodyne receiver with a down conversion of 1090 MHz to an intermediate frequency of 70 MHz. The IF sampling at 70 MHz is done by a 16 bit ADC at 105 Msps (Mega samples per second). The digital part of the receiver is built around a Cyclone IV FPGA from Altera which combines the complete data processing as well as the communication with the onboard computer of the PROBA-V spacecraft. The digital and the RF section of the receiver are built on an individual PCB each, connected with a 37 pin MDM PCB connector. 60) \
+
+\subsection{Ground}
+Survey of Mode S transponders show
+\begin{itemize}
+	\item AXP340 - 240W
+	\item GTX330 - 250W, (-740dBm rx sensitivity for 90 percent)
+	\item 125watt minimum \cite{ADSB_DOT}.
+\end{itemize}
+
+\subsection{Mode S}
+\begin{itemize}
+	\item Pulse position modulation (pulse offset = 0 (missed edge))
+	\item 
+\end{itemize}
+\subsection{Orbit Parameters}
+\subsubsection{J2 Effect Formula}
+\begin{align}
+	\dot{\Omega} = \dfrac{-9.9597408}{(1-e^2)^2} \left(\dfrac{R}{a}\right)^{3.5} \cos i
+\end{align}
+Solve for $\dot{\Omega} = 0$ to find sun synchronus orbit inclination.
