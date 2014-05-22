@@ -21,18 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{GomSpace2013}
-\BIBentryALTinterwordspacing
-{GOMspace}. (2013) {QB50-Platform}. Accessed 2013-08-13. [Online]. Available:
-  \url{http://gomspace.com/index.php?p=products-qb50}
-\BIBentrySTDinterwordspacing
-
-\bibitem{CubeSatKit2013}
-\BIBentryALTinterwordspacing
-{CubeSat Kit}. (2013) {3D Models of the CubeSat Kit}. Accessed 2013-08-13.
-  [Online]. Available: \url{http://www.cubesatkit.com/content/design.html}
-\BIBentrySTDinterwordspacing
-
 \bibitem{ADSB_DOT}
 {Department of Transportation} and {Federal Aviation Administration},
   ``{Automatic Dependent Surveillance-Broadcast (ADS-B) Out Performance
@@ -42,6 +30,12 @@
 \bibitem{ADSB_CASA_booklet}
 {Civil Aviation Safety Authority, Australia}, ``{Automatic Dependent
   Surveillance-Broadcast},'' 2012.
+
+\bibitem{RTCA_MODE_S}
+{Radio Technical Comission for Aeronautics}, \emph{{Minimum Operational
+  Performance Standards for 1090 MHz Extended Squitter Automatic Dependent
+  Surveillance - Broadcast (ADS-B) and Traffic Information Services - Broadcast
+  (TIS-B) RTCA/DO-260B}}, 2009.
 
 \bibitem{ADSB_ICAO_man}
 {International Civil Aviation Organisation}, \emph{ADS-B Implementation and
@@ -56,11 +50,6 @@
 {Radio Technical Comission for Aeronautics}, \emph{{Minimum Operational
   Performance Standards for Universal Access Transceiver (UAT) Automatic
   Dependent Surveillance-Broadcast(ADS-B) RTCA/DO-282B}}, 2009.
-
-\bibitem{RTCA_MODE_S}
-------, \emph{{Minimum Operational Performance Standards for 1090 MHz Extended
-  Squitter Automatic Dependent Surveillance - Broadcast (ADS-B) and Traffic
-  Information Services - Broadcast (TIS-B) RTCA/DO-260B}}, 2009.
 
 \bibitem{Blomenhofer2012}
 \BIBentryALTinterwordspacing
@@ -94,7 +83,13 @@ S.~Nelson, A.~J. Navarr, and M.~Melum, ``{Real Space-Based ADS-B for
 \BIBentryALTinterwordspacing
 S.~Lee, A.~Hutputanasin, A.~Toorian, W.~Lan, and R.~Munakata, ``{CubeSat design
   specification},'' \emph{The CubeSat Program}, 2011. [Online]. Available:
-  \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:CubeSat+Design+Specification\#0}
+  \url{http://browncubesat.org/wp-content/uploads/2013/01/Cubesat-Reqs.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{GomSpace2013}
+\BIBentryALTinterwordspacing
+{GOMspace}. (2013) {QB50-Platform}. Accessed 2013-08-13. [Online]. Available:
+  \url{http://gomspace.com/index.php?p=products-qb50}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Nason2002}
@@ -104,6 +99,12 @@ I.~Nason, J.~Puig-Suari, and R.~Twiggs, ``{Development of a family of
   IEEE Aerospace Conference}, vol.~1, pp. 1--457--1--464, 2002. [Online].
   Available:
   \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1036865}
+\BIBentrySTDinterwordspacing
+
+\bibitem{CubeSatKit2013}
+\BIBentryALTinterwordspacing
+{CubeSat Kit}. (2013) {3D Models of the CubeSat Kit}. Accessed 2013-08-13.
+  [Online]. Available: \url{http://www.cubesatkit.com/content/design.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{CanX-1}
@@ -118,6 +119,14 @@ I.~Nason, J.~Puig-Suari, and R.~Twiggs, ``{Development of a family of
 {University of Tokyo}. (2005) {XI-V Missions}. Accessed 2013-08-22. [Online].
   Available:
   \url{http://www.space.t.u-tokyo.ac.jp/cubesat/mission/V/index-e.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{wertz1999space}
+\BIBentryALTinterwordspacing
+J.~Wertz and W.~Larson, \emph{Space Mission Analysis and Design}, ser. Space
+  Technology Library.\hskip 1em plus 0.5em minus 0.4em\relax Springer
+  Netherlands, 1999. [Online]. Available:
+  \url{http://books.google.com.au/books?id=veyGEAKFbiYC}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Iridium_subscribers_2011}
@@ -179,7 +188,7 @@ J.~Dawson, ``{ADS-B via Low Earth Orbiting Satellites Benefits Assessment},''
 S.~Finkelstein and S.~Sanford, ``{Learning from corporate mistakes:: The rise
   and fall of Iridium},'' \emph{Organizational Dynamics}, vol.~29, no.~2, pp.
   138--148, 2000. [Online]. Available:
-  \url{http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:LEARNING+FROM+CORPORATE+MISTAKES+:+THE+RISE+AND+FALL+OF+IRIDIUM\#0}
+  \url{http://www.rentcell.com/manuals/Iridium.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Orlando2001}
@@ -298,5 +307,48 @@ M.~Sheppard, ``{ALLFITDIST}fit all valid parametric probability distributions
   to data,''
   \url{http://www.mathworks.com.au/matlabcentral/fileexchange/34943-fit-all-valid-parametric-probability-distributions-to-data/content/allfitdist.m},
   2012.
+
+\bibitem{Rahman2014}
+\BIBentryALTinterwordspacing
+A.~A. Rahman, ``{PRESS CONFERENCE: MH370},'' 2014. [Online]. Available:
+  \url{http://www.mot.gov.my/my/Newsroom/Press Release/Tahun 2014/MH370 Press
+  Statement by Dato\%27 Azharuddin Abdul Rahman on 10 March 2014 (12.00PM).pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{FlightRadar}
+\BIBentryALTinterwordspacing
+FlightRadar24, ``{MH370 - Malaysia Airlines - Flight history},'' 2014.
+  [Online]. Available:
+  \url{http://www.flightradar24.com/data/pinned/mh370-2d81a27/\#2d81a27}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ReutersRadar}
+\BIBentryALTinterwordspacing
+N.~Koswanage and S.~Gobvindasamy, ``{Exclusive: Radar data suggests missing
+  Malaysia plane deliberately flown way off course - sources}.'' [Online].
+  Available:
+  \url{http://www.reuters.com/article/2014/03/14/us-malaysia-airlines-radar-exclusive-idUSBREA2D0DG20140314}
+\BIBentrySTDinterwordspacing
+
+\bibitem{PaulColg}
+\BIBentryALTinterwordspacing
+P.~Colgan, ``{MAP: The Possible MH370 Debris Sighting Fits The Former Pilot's
+  Theory Of A Fire Or Smoke In The Cockpit},'' 2014. [Online]. Available:
+  \url{http://www.businessinsider.com.au/map-the-possible-mh370-debris-sighting-fits-the-theory-of-a-fire-or-smoke-in-the-cockpit-2014-3}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Pandey}
+\BIBentryALTinterwordspacing
+S.~Pandey and J.~Ruwitch, ``{Australian PM says searchers confident of position
+  of MH370's black boxes},'' 2014. [Online]. Available:
+  \url{http://www.reuters.com/article/2014/04/11/us-malaysia-airlines-idUSBREA3A06W20140411}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ABCNews2014}
+\BIBentryALTinterwordspacing
+{ABC News}, ``\BIBforeignlanguage{en-AU}{{MH370 search area now larger than
+  Australia}},'' Mar. 2014. [Online]. Available:
+  \url{http://www.abc.net.au/news/2014-03-18/malaysia-search-area-larger-than-australia/5329748}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

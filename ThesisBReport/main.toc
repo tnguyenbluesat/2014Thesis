@@ -1,87 +1,95 @@
-\contentsline {section}{List of Figures}{viii}
-\contentsline {section}{List of Tables}{xii}
-\contentsline {section}{Nomenclature}{xiv}
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {subsection}{\numberline {1.1}Problem Statement}{1}
-\contentsline {subsection}{\numberline {1.2}Thesis Structure}{2}
-\contentsline {part}{I\hspace {1em}Background Theory and Literature Review}{3}
-\contentsline {section}{\numberline {2}Background Theory}{4}
-\contentsline {subsection}{\numberline {2.1}Automatic Dependant Surveillance-Broadcast (ADS-B)}{4}
-\contentsline {subsubsection}{\numberline {2.1.1}Data Structure}{4}
-\contentsline {subsubsection}{\numberline {2.1.2}Transmission and Modulation}{6}
-\contentsline {subsubsection}{\numberline {2.1.3}Coverage}{6}
-\contentsline {subsection}{\numberline {2.2}Cubesats}{9}
-\contentsline {subsubsection}{\numberline {2.2.1}Specifications}{10}
-\contentsline {subsubsection}{\numberline {2.2.2}Typical Applications}{10}
-\contentsline {subsection}{\numberline {2.3}Satellite Constellations}{11}
-\contentsline {subsubsection}{\numberline {2.3.1}Iridium}{11}
-\contentsline {subsubsection}{\numberline {2.3.2}Globalstar}{13}
-\contentsline {section}{\numberline {3}Literature Review}{15}
-\contentsline {subsection}{\numberline {3.1}ADS-B Link Augmentation System (ALAS)}{15}
-\contentsline {subsection}{\numberline {3.2}Aireon}{17}
-\contentsline {subsection}{\numberline {3.3}Spaced Based ADS-B In-Orbit Demonstration Payload (SABIP)}{19}
-\contentsline {subsection}{\numberline {3.4}Proba V}{21}
-\contentsline {subsection}{\numberline {3.5}GOM-X1}{22}
-\contentsline {subsection}{\numberline {3.6}Conclusions}{24}
-\contentsline {part}{II\hspace {1em}Experimental Method and Design}{25}
-\contentsline {section}{\numberline {4}Mission Overview}{26}
-\contentsline {subsection}{\numberline {4.1}System Users}{26}
-\contentsline {subsection}{\numberline {4.2}System Update Rate}{27}
-\contentsline {subsection}{\numberline {4.3}Revisit Time}{27}
-\contentsline {subsection}{\numberline {4.4}Geographical Coverage}{28}
-\contentsline {section}{\numberline {5}Experimental Parameters}{29}
-\contentsline {subsection}{\numberline {5.1}Performance Metrics}{29}
-\contentsline {subsection}{\numberline {5.2}Flight Selection}{30}
-\contentsline {subsection}{\numberline {5.3}Input Variables}{33}
-\contentsline {subsubsection}{\numberline {5.3.1}Reference Case}{33}
-\contentsline {subsection}{\numberline {5.4}Test Cases}{35}
-\contentsline {subsection}{\numberline {5.5}Analysis Period}{36}
-\contentsline {section}{\numberline {6}Analysis Tools}{37}
-\contentsline {subsection}{\numberline {6.1}STK}{37}
-\contentsline {subsection}{\numberline {6.2}Matlab}{37}
-\contentsline {subsection}{\numberline {6.3}Excel}{38}
-\contentsline {section}{\numberline {7}Model Input Data and Assumptions}{39}
-\contentsline {subsection}{\numberline {7.1}Link Type}{39}
-\contentsline {subsection}{\numberline {7.2}Flight Characteristics}{40}
-\contentsline {subsection}{\numberline {7.3}Satellite Characteristics}{42}
-\contentsline {part}{III\hspace {1em}Results and Analysis}{43}
-\contentsline {section}{\numberline {8}Results}{44}
-\contentsline {subsection}{\numberline {8.1}Access Times}{44}
-\contentsline {subsection}{\numberline {8.2}Link Budget}{44}
-\contentsline {section}{\numberline {9}Data Processing}{46}
-\contentsline {subsection}{\numberline {9.1}Statistical Modelling}{47}
-\contentsline {section}{\numberline {10}Trends and Analysis}{48}
-\contentsline {subsection}{\numberline {10.1}Initial Constellation Tests}{48}
-\contentsline {subsubsection}{\numberline {10.1.1}Molniya Orbit}{48}
-\contentsline {subsubsection}{\numberline {10.1.2}Geosynchronous}{49}
-\contentsline {subsection}{\numberline {10.2}Altitude Variations}{50}
-\contentsline {subsubsection}{\numberline {10.2.1}Input Variables}{50}
-\contentsline {subsubsection}{\numberline {10.2.2}Trends}{51}
-\contentsline {subsubsection}{\numberline {10.2.3}Discussion}{51}
-\contentsline {subsection}{\numberline {10.3}Inclination Variations}{56}
-\contentsline {subsubsection}{\numberline {10.3.1}Input Variables}{56}
-\contentsline {subsubsection}{\numberline {10.3.2}Trends}{58}
-\contentsline {subsubsection}{\numberline {10.3.3}Discussion}{58}
-\contentsline {subsection}{\numberline {10.4}Satellite Number Variations}{62}
-\contentsline {subsubsection}{\numberline {10.4.1}Input Variables}{62}
-\contentsline {subsubsection}{\numberline {10.4.2}Trends}{62}
-\contentsline {subsubsection}{\numberline {10.4.3}Discussion}{64}
-\contentsline {section}{\numberline {11}Access Periodicity}{65}
-\contentsline {section}{\numberline {12}Weighted Decision Matrix}{67}
-\contentsline {subsection}{\numberline {12.1}Parameter Weight Matrix}{67}
-\contentsline {subsection}{\numberline {12.2}Score Calculation}{69}
-\contentsline {subsubsection}{\numberline {12.2.1}Simple Linearisation}{69}
-\contentsline {subsubsection}{\numberline {12.2.2}Pass - Fail Linearisation}{69}
-\contentsline {subsection}{\numberline {12.3}Results}{70}
-\contentsline {part}{IV\hspace {1em}Conclusions and Future Work}{72}
-\contentsline {section}{\numberline {13}Conclusions}{73}
-\contentsline {subsection}{\numberline {13.1}Chosen Constellation}{73}
-\contentsline {section}{\numberline {14}Future Work}{76}
-\contentsline {subsection}{\numberline {14.1}Full Parametric Study}{76}
-\contentsline {subsection}{\numberline {14.2}Transmitter Receiver Model Improvements}{76}
-\contentsline {subsection}{\numberline {14.3}Ground Link}{77}
-\contentsline {section}{\numberline {15}References}{78}
-\contentsline {part}{Appendices}{83}
-\contentsline {section}{\numberline {A}Experimental Parameters}{83}
-\contentsline {section}{\numberline {B}Statistical Models}{84}
-\contentsline {subsection}{\numberline {B.1}Student's t-Location Scale Distribution}{84}
+\contentsline {section}{Publications to Date}{i}{Doc-Start}
+\contentsline {section}{Declaration}{ii}{Item.2}
+\contentsline {section}{Abstract}{iii}{Item.2}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
+\contentsline {chapter}{List of Tables}{xi}{chapter*.3}
+\contentsline {section}{Nomenclature}{xiii}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem Statement}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Thesis Structure}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Background Theory and Literature Review}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}ADS-B}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Data Structure}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Transmission and Modulation}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Coverage}{6}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}CubeSats}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Specifications}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Typical Applications}{10}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Satellite Constellations}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Iridium}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Globalstar}{13}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Literature Review}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}ADS-B Link Augmentation System (ALAS)}{15}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Aireon}{17}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Spaced Based ADS-B In-Orbit Demonstration Payload (SABIP)}{19}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Proba V}{21}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}GOM-X1}{22}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Conclusions}{24}{subsection.2.4.6}
+\contentsline {chapter}{\numberline {3}Experimental Method and Design}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mission Overview}{26}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}System Users}{26}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}System Update Rate}{27}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Revisit Time}{27}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Geographical Coverage}{28}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Experimental Parameters}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Performance Metrics}{29}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Flight Selection}{31}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Input Variables}{33}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}Reference Case}{33}{subsubsection.3.2.3.1}
+\contentsline {subsection}{\numberline {3.2.4}Test Cases}{35}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Analysis Period}{36}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Analysis Tools}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}STK}{37}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Matlab}{38}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Excel}{38}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Model Input Data and Assumptions}{39}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Link Type}{39}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Flight Characteristics}{40}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Satellite Characteristics}{42}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}Results and Analysis}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Raw Results}{44}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Access Times}{44}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Link Budget}{45}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Data Processing}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Statistical Modelling}{47}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Trends and Analysis}{48}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Initial Constellation Tests}{48}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Molniya Orbit}{48}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Geosynchronous}{49}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {4.3.2}Altitude Variations}{50}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Input Variables}{50}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Trends}{51}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Discussion}{51}{subsubsection.4.3.2.3}
+\contentsline {subsection}{\numberline {4.3.3}Inclination Variations}{56}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}Input Variables}{56}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}Trends}{58}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}Discussion}{58}{subsubsection.4.3.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Satellite Number Variations}{62}{subsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.4.1}Input Variables}{62}{subsubsection.4.3.4.1}
+\contentsline {subsubsection}{\numberline {4.3.4.2}Trends}{62}{subsubsection.4.3.4.2}
+\contentsline {subsubsection}{\numberline {4.3.4.3}Discussion}{64}{subsubsection.4.3.4.3}
+\contentsline {section}{\numberline {4.4}Access Periodicity}{65}{section.4.4}
+\contentsline {section}{\numberline {4.5}Weighted Decision Matrix}{67}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Parameter Weight Matrix}{67}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Score Calculation}{69}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}Simple Linearisation}{69}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}Pass - Fail Linearisation}{69}{subsubsection.4.5.2.2}
+\contentsline {subsection}{\numberline {4.5.3}Results}{70}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Special Case Study - MH370}{72}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Simulation}{73}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Results}{73}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Discussion}{74}{subsection.4.6.3}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{75}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusions}{76}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Chosen Constellation}{76}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Future Work}{79}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Full Parametric Study}{79}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Transmitter Receiver Model Improvements}{79}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Ground Link}{80}{subsection.5.2.3}
+\contentsline {chapter}{References}{81}{subsection.5.2.3}
+\contentsline {part}{Appendices}{88}{chapter*.69}
+\contentsline {chapter}{\numberline {A}2013 AIAA Region VII-AU Student Conference \\ Full Text of Accepted Paper}{88}{appendix.A}
+\contentsline {chapter}{\numberline {B}65th International Astronautical Congress \\ Abstract and Acceptance Letter}{99}{appendix.B}
+\contentsline {chapter}{\numberline {C}Experimental Parameters}{103}{appendix.C}
+\contentsline {chapter}{\numberline {D}Statistical Models}{104}{appendix.D}
+\contentsline {section}{\numberline {D.1}Student's t-Location Scale Distribution}{104}{section.D.1}

@@ -2,7 +2,7 @@ stk.v.10.0
 WrittenBy    STK_v10.0.2
 BEGIN Access 
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_3/Receiver/adsb_satrcvr_moln58
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_1/Receiver/adsb_satrcvr_moln5
 
     IsComputed               No
     UpdateOnReference        Yes
@@ -33,7 +33,7 @@ END Access
 
 BEGIN Access 
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_4/Receiver/adsb_satrcvr_moln59
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_2/Receiver/adsb_satrcvr_moln51
 
     IsComputed               No
     UpdateOnReference        Yes
@@ -64,38 +64,7 @@ END Access
 
 BEGIN Access 
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_5/Receiver/adsb_satrcvr_moln510
-
-    IsComputed               No
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_6/Receiver/adsb_satrcvr_moln511
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_3/Receiver/adsb_satrcvr_moln52
 
     IsComputed               No
     UpdateOnReference        Yes
@@ -281,6 +250,192 @@ END Access
 
 BEGIN Access 
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_3/Receiver/adsb_satrcvr_moln58
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_4/Receiver/adsb_satrcvr_moln59
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_5/Receiver/adsb_satrcvr_moln510
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_6/Receiver/adsb_satrcvr_moln511
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Molniya/Receiver/adsb_satrcvr_moln5111
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Molniya/Receiver/adsb_satrcvr_moln_lowthresh1011
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_1/Receiver/adsb_satrcvr_moln5
 
     IsComputed               No
@@ -311,8 +466,8 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_2/Receiver/adsb_satrcvr_moln51
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_1/Receiver/adsb_satrcvr_moln_lowthresh
 
     IsComputed               No
     UpdateOnReference        Yes
@@ -342,8 +497,194 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_3/Receiver/adsb_satrcvr_moln52
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_2/Receiver/adsb_satrcvr_moln_lowthresh1
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_3/Receiver/adsb_satrcvr_moln_lowthresh2
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_4/Receiver/adsb_satrcvr_moln_lowthresh3
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_5/Receiver/adsb_satrcvr_moln_lowthresh4
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_6/Receiver/adsb_satrcvr_moln_lowthresh5
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_1/Receiver/adsb_satrcvr_moln_lowthresh6
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_2/Receiver/adsb_satrcvr_moln_lowthresh7
 
     IsComputed               No
     UpdateOnReference        Yes
@@ -376,7 +717,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_3/Receiver/adsb_satrcvr_moln_lowthresh8
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -407,7 +748,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_4/Receiver/adsb_satrcvr_moln_lowthresh9
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -438,7 +779,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_5/Receiver/adsb_satrcvr_moln_lowthresh10
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -469,7 +810,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_6/Receiver/adsb_satrcvr_moln_lowthresh101
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -498,9 +839,9 @@ END Access
 
 BEGIN Access 
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_4/Receiver/adsb_satrcvr_moln_lowthresh3
+        Scenario/US_greatcircle_invMolniya/Satellite/Geosynchronus_sat/Receiver/adsb_satrcvr_moln51111
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -528,134 +869,10 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_5/Receiver/adsb_satrcvr_moln_lowthresh4
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_6/Receiver/adsb_satrcvr_moln_lowthresh5
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_1/Receiver/adsb_satrcvr_moln_lowthresh6
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_2/Receiver/adsb_satrcvr_moln_lowthresh7
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_1/Receiver/adsb_satrcvr_moln_lowthresh
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -683,10 +900,10 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_2/Receiver/adsb_satrcvr_moln_lowthresh1
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -714,10 +931,165 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_3/Receiver/adsb_satrcvr_moln_lowthresh2
 
-    IsComputed               Yes
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_4/Receiver/adsb_satrcvr_moln_lowthresh3
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_5/Receiver/adsb_satrcvr_moln_lowthresh4
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_6/Receiver/adsb_satrcvr_moln_lowthresh5
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_1/Receiver/adsb_satrcvr_moln_lowthresh6
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_2/Receiver/adsb_satrcvr_moln_lowthresh7
+
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -748,7 +1120,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_3/Receiver/adsb_satrcvr_moln_lowthresh8
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -779,7 +1151,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_4/Receiver/adsb_satrcvr_moln_lowthresh9
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -810,7 +1182,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_5/Receiver/adsb_satrcvr_moln_lowthresh10
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -841,255 +1213,7 @@ BEGIN Access
         Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_6/Receiver/adsb_satrcvr_moln_lowthresh101
 
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_4/Receiver/adsb_satrcvr_moln_lowthresh3
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_5/Receiver/adsb_satrcvr_moln_lowthresh4
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_6/Receiver/adsb_satrcvr_moln_lowthresh5
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_1/Receiver/adsb_satrcvr_moln_lowthresh6
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p2_2/Receiver/adsb_satrcvr_moln_lowthresh7
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_1/Receiver/adsb_satrcvr_moln_lowthresh
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_2/Receiver/adsb_satrcvr_moln_lowthresh1
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_invMolniya/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_invMolniya/Satellite/Inverted_Molniya_p1_3/Receiver/adsb_satrcvr_moln_lowthresh2
-
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No

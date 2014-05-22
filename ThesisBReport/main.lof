@@ -1,44 +1,55 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces ADS-B and radar coverage in Australia}}{6}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ADS-B coverage in the US as of 30/06/2013}}{7}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Global areas without ADS-B coverage}}{8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The GOMSpace QB50 Platform - an example of a 2U CubeSat, reproduced from \cite {GomSpace2013}\relax }}{9}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces CubeSat sizes, ranging from the single 1U to the triple 3U. Reproduced from \cite {CubeSatKit2013}\relax }}{10}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Iridium Satellite constellation showing a) a view over Australia and South East Asia and b) the view from above the south pole. Data taken from STK\relax }}{12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Iridium Satellite constellation path over a 2D projection of the surface of the Earth. Data taken from STK\relax }}{12}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces The 8 Globalstar Orbital planes as shown from a) above Australia and South East Asia and b) above the south pole. Data from STK\relax }}{13}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The Ground Track of the 48 Globalstar Satellites. Data from STK\relax }}{14}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview of the ALAS system}}{16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ADS-B Duplex coverage provided by the second generation Globalstar constellation}}{16}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Aireon System Concept}}{18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces SAPID receiver Antenna design}}{20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Aircraft detected by Proba V over Europe}}{21}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 3D render of the GOM-X1 satellite, showing the expanded helical receiver antenna}}{22}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Preliminary plot of planes detected by GOM-X1}}{23}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Popular flight routes}}{31}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Trans-Oceanic Flight paths, as modelled in STK\relax }}{31}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Generalisations of trans-Oceanic Flight paths used for analysis\relax }}{32}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Ground track of the 12 satellite reference configuration in STK\relax }}{34}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 3D model of the 12 satellite reference configuration in STK\relax }}{35}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Output of allfitdist when applied to the access periods of the LAX-Narita flight using the reference constellation described in Section 5.3.1\hbox {}\relax }}{47}
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Ground track of the tested Molniya orbit\relax }}{48}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Ground track of the tested Geosynchronous orbit\relax }}{49}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by altitude variations. Lower is better\relax }}{52}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Maximum coverage gap as affected by altitude variations. Lower is better\relax }}{52}
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Minimum received isotropic power as affected by altitude variations. Higher is better.\relax }}{53}
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by altitude variations with a 3 satellite constellation. Lower is better\relax }}{53}
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Maximum coverage gap as affected by altitude variations retested with a 3 satellite constellation. Lower is better. \relax }}{54}
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Ground track of satellites inclined at 60 degrees, shown with the test flight paths\relax }}{55}
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Ground tracks of constellations inclined between 30 degrees and 90 degrees\relax }}{57}
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by inclination variations. Lower is better\relax }}{58}
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Maximum coverage gap as affected by altitude variations. Lower is better.\relax }}{59}
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Minimum received isotropic power as affected by inclination variations. Higher is better.\relax }}{59}
-\contentsline {figure}{\numberline {10.13}{\ignorespaces Flight in `dead zone' between satellite planes, inclined at 70 degrees. View from North Pole\relax }}{61}
-\contentsline {figure}{\numberline {10.14}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by number of satellites per plane. Lower is better\relax }}{63}
-\contentsline {figure}{\numberline {10.15}{\ignorespaces Maximum coverage gap as affected by number of satellites per plane. Lower is better.\relax }}{63}
-\contentsline {figure}{\numberline {10.16}{\ignorespaces Minimum received isotropic power as affected by number of satellites per plane. Higher is better.\relax }}{64}
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Fitted distributions of the periodicity of Access times for the LAX-Heathrow flight from the reference constellation. \relax }}{65}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Fitted distributions of the periodicity of Access times for the LAX-Heathrow flight from the reference constellation. \relax }}{66}
-\contentsline {figure}{\numberline {12.1}{\ignorespaces The second harmonic deviation from a straight line path, showing required sample points\relax }}{70}
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Distribution of scores from decision matrix\relax }}{71}
-\contentsline {figure}{\numberline {13.1}{\ignorespaces 18 satellite configuration rendered in STK showing a) the view above North America and b) the view above the Arctic\relax }}{74}
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Ground track of the 18 satellite configuration, rendered in STK\relax }}{75}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ADS-B and radar coverage in Australia}}{6}{figure.caption.5}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ADS-B coverage in the US as of 30/06/2013}}{7}{figure.caption.6}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Global areas without ADS-B coverage}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The GOMSpace QB50 Platform - an example of a 2U CubeSat}}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces CubeSat sizes, ranging from the single 1U to the triple 3U}}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Iridium Satellite constellation showing a) a view over Australia and South East Asia and b) the view from above the south pole. Data taken from STK\relax }}{12}{figure.caption.10}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Iridium Satellite constellation path over a 2D projection of the surface of the Earth. Data taken from STK\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The 8 Globalstar Orbital planes as shown from a) above Australia and South East Asia and b) above the south pole. Data from STK\relax }}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The Ground Track of the 48 Globalstar Satellites. Data from STK\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Overview of the ALAS system}}{16}{figure.caption.14}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces ADS-B Duplex coverage provided by the second generation Globalstar constellation}}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Aireon System Concept}}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces SAPID receiver Antenna design}}{20}{figure.caption.17}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Aircraft detected by Proba V over Europe}}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces 3D render of the GOM-X1 satellite, showing the expanded helical receiver antenna}}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Preliminary plot of planes detected by GOM-X1}}{23}{figure.caption.20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Popular flight routes}}{28}{figure.caption.21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Trans-Oceanic Flight paths, as modelled in STK\relax }}{31}{figure.caption.22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Generalisations of trans-Oceanic Flight paths used for analysis\relax }}{32}{figure.caption.23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ground track of the 12 satellite reference configuration in STK\relax }}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 3D model of the 12 satellite reference configuration in STK\relax }}{35}{figure.caption.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Output of allfitdist when applied to the access periods of the LAX-Narita flight using the reference constellation described in Section \ref {sec:ref_case}\relax }}{47}{figure.caption.36}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ground track of the tested Molniya orbit\relax }}{48}{figure.caption.37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ground track of the tested Geosynchronous orbit\relax }}{49}{figure.caption.38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by altitude variations. Lower is better\relax }}{52}{figure.caption.41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Maximum coverage gap as affected by altitude variations. Lower is better\relax }}{52}{figure.caption.42}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Minimum received isotropic power as affected by altitude variations. Higher is better.\relax }}{53}{figure.caption.43}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by altitude variations with a 3 satellite constellation. Lower is better\relax }}{53}{figure.caption.44}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Maximum coverage gap as affected by altitude variations retested with a 3 satellite constellation. Lower is better. \relax }}{54}{figure.caption.45}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ground track of satellites inclined at 60 degrees, shown with the test flight paths\relax }}{55}{figure.caption.46}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ground tracks of constellations inclined between 30 degrees and 90 degrees\relax }}{57}{figure.caption.48}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by inclination variations. Lower is better\relax }}{58}{figure.caption.49}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Maximum coverage gap as affected by altitude variations. Lower is better.\relax }}{59}{figure.caption.50}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Minimum received isotropic power as affected by inclination variations. Higher is better.\relax }}{59}{figure.caption.51}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Flight in dead zone between satellite planes, inclined at 70 degrees. View from North Pole\relax }}{61}{figure.caption.52}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Coverage gap (as a fraction of total analysis time) as effected by number of satellites per plane. Lower is better\relax }}{63}{figure.caption.54}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Maximum coverage gap as affected by number of satellites per plane. Lower is better.\relax }}{63}{figure.caption.55}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Minimum received isotropic power as affected by number of satellites per plane. Higher is better.\relax }}{64}{figure.caption.56}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Fitted distributions of the periodicity of Access times for the LAX-Heathrow flight from the reference constellation. \relax }}{65}{figure.caption.57}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Fitted distributions of the periodicity of Access times for the LAX-Heathrow flight from the reference constellation. \relax }}{66}{figure.caption.58}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces The second harmonic deviation from a straight line path, showing required sample points\relax }}{70}{figure.caption.60}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Distribution of scores from decision matrix\relax }}{71}{figure.caption.62}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Probability map of possible crash locations of the MH370}}{72}{figure.caption.63}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Simulated MH370 flight path with 18 satellite constellation\relax }}{73}{figure.caption.64}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 18 satellite configuration rendered in STK showing a) the view above North America and b) the view above the Arctic\relax }}{77}{figure.caption.67}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Ground track of the 18 satellite configuration, rendered in STK\relax }}{78}{figure.caption.68}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

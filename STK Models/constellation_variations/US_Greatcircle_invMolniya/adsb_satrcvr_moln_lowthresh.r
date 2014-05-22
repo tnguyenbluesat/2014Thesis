@@ -112,13 +112,17 @@ END Graphics
     BEGIN AccessConstraints
 		LineOfSight   IncludeIntervals 
 		BitErrorRate		Max  1.0000000000e-006   IncludeIntervals 
-		RcvdIsotropicPower		LinearMin  1.0000000000e-014   IncludeIntervals 
+		RcvdIsotropicPower		LinearMin  7.0794578438e-015   IncludeIntervals 
     END AccessConstraints
     
     BEGIN ObjectCoverage
     END ObjectCoverage
     
     BEGIN Desc
+        ShortText    0
+
+        LongText    0
+
     END Desc
     
     BEGIN Refraction

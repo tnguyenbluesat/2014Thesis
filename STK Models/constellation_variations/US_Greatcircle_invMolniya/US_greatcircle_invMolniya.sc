@@ -105,7 +105,7 @@ BEGIN Animation
 
     StartTime          3 Dec 2013 01:00:00.000000000
     EndTime            25 Feb 2014 13:00:00.000000000
-    CurrentTime        4 Dec 2013 12:12:00.000000000
+    CurrentTime        4 Dec 2013 09:57:00.000000000
     Direction          Forward
     UpdateDelta        180.000000
     RefreshDelta       0.010000
@@ -188,8 +188,8 @@ BEGIN MapData
         BEGIN MapAttributes
             PrimaryBody          Earth
             SecondaryBody        Sun
-            CenterLatitude       0.000000
-            CenterLongitude      -122.739160
+            CenterLatitude       -0.276498
+            CenterLongitude      -22.056346
             ProjectionAltitude   63621860.000000
             FieldOfView          35.000000
             OrthoDisplayDistance 20000000.000000
@@ -225,8 +225,8 @@ BEGIN MapData
             UseCloudsFile        Off
             BEGIN ZoomLocations
                 BEGIN ZoomLocation
-                    CenterLat    0.000000
-                    CenterLon    -122.739160
+                    CenterLat    -0.276498
+                    CenterLon    -22.056346
                     ZoomWidth    360.000000
                     ZoomHeight   180.000000
                 End ZoomLocation
@@ -381,13 +381,13 @@ BEGIN MapData
             UmbraLineColor               #000000
             UmbraLineStyle               0
             UmbraLineWidth               2
-            FillUmbra                    On
+            FillUmbra                    Off
             UmbraFillColor               #000000
             ShowSunlightLine             Off
             SunlightLineColor            #ffff00
             SunlightLineStyle            0
             SunlightLineWidth            2
-            FillSunlight                 On
+            FillSunlight                 Off
             SunlightFillColor            #ffffff
             SunlightMinOpacity           0.000000
             SunlightMaxOpacity           0.200000
@@ -1351,6 +1351,7 @@ END Class
 
 Class Satellite
 
+	Geosynchronus_sat
 	Inverted_Molniya_p1_1
 	Inverted_Molniya_p1_2
 	Inverted_Molniya_p1_3
@@ -1363,6 +1364,8 @@ Class Satellite
 	Inverted_Molniya_p2_4
 	Inverted_Molniya_p2_5
 	Inverted_Molniya_p2_6
+	Molniya
+	Monlniya1
 
 END Class
 
@@ -1587,6 +1590,12 @@ BEGIN References
     Instance Facility/airport_tokyo1/Receiver/Receiver321
         Facility/airport_tokyo1/Receiver/Receiver321
     END Instance
+    Instance Satellite/Geosynchronus_sat
+        Satellite/Geosynchronus_sat
+    END Instance
+    Instance Satellite/Geosynchronus_sat/Receiver/adsb_satrcvr_moln51111
+        Satellite/Geosynchronus_sat/Receiver/adsb_satrcvr_moln51111
+    END Instance
     Instance Satellite/Inverted_Molniya_p1_1
         Satellite/Inverted_Molniya_p1_1
         Satellite/Inverted_Molniya_p1_1/Sensor/Sensor
@@ -1778,6 +1787,25 @@ BEGIN References
     END Instance
     Instance Satellite/Inverted_Molniya_p2_6/Transmitter/GndLink121111
         Satellite/Inverted_Molniya_p2_6/Transmitter/GndLink121111
+    END Instance
+    Instance Satellite/Molniya
+        Satellite/Molniya
+        Satellite/Molniya/Sensor/Sensor21111111
+    END Instance
+    Instance Satellite/Molniya/Receiver/adsb_satrcvr_moln5111
+        Satellite/Molniya/Receiver/adsb_satrcvr_moln5111
+    END Instance
+    Instance Satellite/Molniya/Receiver/adsb_satrcvr_moln_lowthresh1011
+        Satellite/Molniya/Receiver/adsb_satrcvr_moln_lowthresh1011
+    END Instance
+    Instance Satellite/Molniya/Sensor/Sensor21111111
+        Satellite/Molniya/Sensor/Sensor21111111
+    END Instance
+    Instance Satellite/Molniya/Transmitter/GndLink1211111
+        Satellite/Molniya/Transmitter/GndLink1211111
+    END Instance
+    Instance Satellite/Monlniya1
+        Satellite/Monlniya1
     END Instance
 END References
 

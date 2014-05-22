@@ -1,6 +1,6 @@
 %Assignment 2
 
-\documentclass[12pt, a4paper, subeqn]{article}
+\documentclass[12pt, a4paper, subeqn]{report}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -28,7 +28,9 @@
 
 \setlength{\jot}{12pt}
 
-\setcounter{tocdepth}{2}
+%Define counter depths for TOC and seciton numbers
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{3}
 
 
 \usepackage{amsmath,amsfonts,amssymb,verbatim, fancyvrb}
@@ -56,9 +58,9 @@
 
 %Equation and figure numbering
 \usepackage{booktabs}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-\numberwithin{equation}{section}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+\numberwithin{equation}{chapter}
 
 %Number mathetmatical Theorems
 \usepackage{amsthm}
@@ -74,6 +76,8 @@
 >{\centering\hspace{0pt}}p{#1}}%
 \renewcommand{\arraystretch}{1.4}
 
+%embed PDF files
+\usepackage{pdfpages}
 
 
 
@@ -123,12 +127,45 @@
 }
 
 \end{comment}
+
+
 \renewcommand{\footrulewidth}{0pt}
+
+
+
+%The following code removes the chapter number from the biblography and changes 'Bibliography' to 'references' for a report
+\renewcommand{\bibname}{References}
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\bibname}% <-- this line was changed from \chapter* to \section*
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
 
 \begin{document}
 \doublespacing
 \pagenumbering{roman}
 \include{TitlePage}
+\include{publications}
 \include{abstract}
 \tableofcontents
 \newpage
@@ -145,8 +182,8 @@
 
 \include{introduction}
 
-\part{Background Theory and Literature Review} \label{part:lit_review}
-A number of fundamental concepts of the nature of ADS-B signals and Cubesat constellation design needed to be researched before the needs of a space based ADS-B system could be properly defined. Current regulatory requirements for terrestrial ADS-B receivers were researched in order to define a space based analogue. Satellite constellations with similar coverage requirements were examined in order to develop a design framework.
+\chapter{Background Theory and Literature Review} \label{part:lit_review}
+A number of fundamental concepts of the nature of ADS-B signals and CubeSat constellation design needed to be researched before the needs of a space based ADS-B system could be properly defined. Current regulatory requirements for terrestrial ADS-B receivers were researched in order to define a space based analogue. Satellite constellations with similar coverage requirements were examined in order to develop a design framework.
 
 Academic and commercial groups have already shown interest in the concept of a space-based ADS-B network, with more than one technology demonstrator currently in orbit. Their research proved that the technology is possible. However there has been little research into the design of a satellite constellation specifically tailored for the needs of aircraft using ADS-B.  
  
@@ -154,14 +191,14 @@ Academic and commercial groups have already shown interest in the concept of a s
 \include{lit_review}
 
 \newpage
-\part{Experimental Method and Design}
+\chapter{Experimental Method and Design}
 \label{part:exp_method}
 In general terms we were interested in the ability for a given constellation of LEO satellites to provide ADS-B coverage in the absence of land-based ADS-B receivers. To evaluate this, popular flights over the Atlantic and Pacific Oceans were simulated in STK. The simulation was extended to include communication links to LEO satellites. Different satellite constellations were simulated and the link-budget data for each test case was collected. The efficacy of a constellation was determined by comparing the aggregated access times and link budgets for the ADS-B links between a given trans-oceanic flight and the overhead satellites.
 \include{design_drivers}
 \include{parameters}
 \include{tools}
 \include{data_assumptions}
-\part{Results and Analysis}\label{part:results}
+\chapter{Results and Analysis}\label{part:results}
 The input parameters detailed in Part \ref{part:exp_method} were simulated in STK and their performance evaluated using tools in Matlab and Microsoft Excel. Initially a set of exotic constellations were tested and ruled out as being impractical and ineffective. Parameters from the reference case detailed in Section \ref{sec:ref_case} were then varied to see the effect on the performance metrics used to define the effectiveness of a space-based ADS-B system. 
 
 \include{results}
@@ -169,22 +206,34 @@ The input parameters detailed in Part \ref{part:exp_method} were simulated in ST
 \include{analysis}
 
 \include{weight_matrix}
-
-\part{Conclusions and Future Work}\label{part:concl}
+\include{mh370}
+\chapter{Conclusions and Future Work}\label{part:concl}
+With further development and refinement of small satellite based ADS-B technology, near constant global coverage can be achieved with a constellation of CubeSats in LEO. The experiments conducted showed that all chosen constellations provide the geographic coverage for the major transoceanic flight corridors. Varying degrees of coverage time and update rate effectiveness was achieved by varying constellation parameters, with the best result achieved by an 18 satellite constellation at an altitude of 700km. Future work needs to be conducted in order to create more realistic models for full system analysis and further design.
 \include{conclusions}
 \include{future_work}
 
 %\include{LinkBudget}
 \newpage
+\addcontentsline{toc}{chapter}{References}
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 
 \newpage
 \addcontentsline{toc}{part}{Appendices}
-\part*{Appendices}
 \appendix
+
+\chapter{2013 AIAA Region VII-AU Student Conference \\ Full Text of Accepted Paper}
+\label{app:aiiastuconf}
+\includepdf[pages={1-10}]{papers/tnguyen_aiaaStudentConference2013v4.pdf}
+\chapter{65th International Astronautical Congress \\ Abstract and Acceptance Letter}
+\label{app:iac_2014}
+\includepdf[pages={1}]{papers/tnguyen_IAC2014_absract.pdf}
+\includepdf[pages={1-2}]{papers/tnguyen_IAC2014_letter.pdf}
+
 \input{app_allParameters}
 \include{stats}
+
+
 %\section{CubeSat Drawings} \label{app:cubesat}
 
 

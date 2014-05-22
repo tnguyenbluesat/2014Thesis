@@ -1,0 +1,587 @@
+stk.v.10.0
+WrittenBy    STK_v10.0.2
+
+BEGIN Aircraft
+
+Name		B747SLO_frankfurt
+
+BEGIN VehiclePath
+	CentralBody				Earth
+
+    BEGIN Interval
+
+         StartTime            3 Dec 2013 01:00:00.000000000
+         StopTime             3 Dec 2013 03:42:47.584120668
+
+    END Interval
+
+	StoreEphemeris				Yes
+	SmoothInterp				No
+
+    BEGIN GreatArc
+
+        VersionIndicator      20071204
+        Method              DetTimeAccFromVel
+
+    ArcSmartInterval
+		BEGIN	EVENTINTERVAL
+				StartEvent
+					BEGIN	EVENT
+							Epoch	3 Dec 2013 01:00:00.000000000
+							EventEpoch
+								BEGIN	EVENT
+									Type	EVENT_LINKTO
+									Name	AnalysisStartTime
+									AbsolutePath	Scenario
+								END	EVENT
+							EpochState	Implicit
+					END	EVENT
+				StopEvent
+					BEGIN	EVENT
+							Epoch	3 Dec 2013 03:42:47.584120668
+							EpochState	Explicit
+					END	EVENT
+				IntervalState	StartStop
+		END	EVENTINTERVAL
+
+        TimeOfFirstWaypoint 3 Dec 2013 01:00:00.000000000
+
+    UseScenTime          No
+        ArcGranularity      5.729577951308e-001
+        AltRef              WGS84
+        AltInterpMethod     EllipsoidHeight
+        NumberOfWaypoints   14
+
+        BEGIN Waypoints
+
+        0.000000000000e+000 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        7.513526246668e+002 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+        1.502705249334e+003 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        2.254057874000e+003 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+        3.005410498667e+003 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        3.756763123334e+003 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+        4.508115748001e+003 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        5.259468372667e+003 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+        6.010820997334e+003 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        6.762173622001e+003 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+        7.513526246668e+003 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        8.264878871334e+003 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+        9.016231496001e+003 4.901000000000e+001 2.550000000000e+000 9.144000000000e+003 2.519440000000e+002 0.000000000000e+000
+        9.767584120668e+003 5.003000000000e+001 4.614000000000e-001 8.543000000000e+003 2.519440000000e+002 0.000000000000e+000
+
+        END Waypoints
+
+    END GreatArc
+
+END VehiclePath
+
+BEGIN Ephemeris
+
+NumberOfEphemerisPoints 40
+
+ScenarioEpoch            3 Dec 2013 01:00:00.000000
+
+# Epoch in JDate format: 2456629.54166666666667
+# Epoch in YYDDD format:   13337.04166666666667
+
+
+InterpolationMethod     GreatArc
+
+InterpolationSamplesM1      1
+
+CentralBody             Earth
+
+CoordinateSystem        Fixed 
+
+BlockingFactor          20
+
+# Time of first point: 3 Dec 2013 01:00:00.000000000 UTCG = 2456629.54166666666667 JDate = 13337.04166666666667 YYDDD
+
+EphemerisTimePosVel
+
+0.00000000000000e+000 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+2.50461534006159e+002 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+5.00918785058211e+002 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+7.51352624666757e+002 4.11066194636002e+006 3.31036672976825e+004 4.87148046592702e+006 1.12577889208155e+002 2.04534594989060e+002 -9.46973993840244e+001
+1.00179287532064e+003 4.13865624731647e+006 8.43262200881610e+004 4.84752554645685e+006 1.10974451067678e+002 2.04522068770451e+002 -9.65980006629652e+001
+1.25223733916689e+003 4.16624808290492e+006 1.35544012418111e+005 4.82309538295852e+006 1.09360131698019e+002 2.04489616392809e+002 -9.84892761599641e+001
+1.50270524933352e+003 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+1.75316678333967e+003 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+2.00362403439173e+003 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+2.25405787400027e+003 4.11066194636002e+006 3.31036672976825e+004 4.87148046592702e+006 1.12577889208155e+002 2.04534594989060e+002 -9.46973993840244e+001
+2.50449812465416e+003 4.13865624731647e+006 8.43262200881610e+004 4.84752554645685e+006 1.10974451067678e+002 2.04522068770451e+002 -9.65980006629652e+001
+2.75494258850040e+003 4.16624808290492e+006 1.35544012418111e+005 4.82309538295852e+006 1.09360131698019e+002 2.04489616392809e+002 -9.84892761599641e+001
+3.00541049866703e+003 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+3.25587203267319e+003 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+3.50632928372524e+003 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+3.75676312333379e+003 4.11066194636002e+006 3.31036672976825e+004 4.87148046592702e+006 1.12577889208155e+002 2.04534594989060e+002 -9.46973993840244e+001
+4.00720337398767e+003 4.13865624731647e+006 8.43262200881610e+004 4.84752554645685e+006 1.10974451067678e+002 2.04522068770451e+002 -9.65980006629652e+001
+4.25764783783392e+003 4.16624808290492e+006 1.35544012418111e+005 4.82309538295852e+006 1.09360131698019e+002 2.04489616392809e+002 -9.84892761599641e+001
+4.50811574800055e+003 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+4.75857728200670e+003 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+5.00903453305876e+003 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+5.25946837266730e+003 4.11066194636002e+006 3.31036672976825e+004 4.87148046592702e+006 1.12577889208155e+002 2.04534594989060e+002 -9.46973993840244e+001
+5.50990862332119e+003 4.13865624731647e+006 8.43262200881610e+004 4.84752554645685e+006 1.10974451067678e+002 2.04522068770451e+002 -9.65980006629652e+001
+5.76035308716743e+003 4.16624808290492e+006 1.35544012418111e+005 4.82309538295852e+006 1.09360131698019e+002 2.04489616392809e+002 -9.84892761599641e+001
+6.01082099733406e+003 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+6.26128253134022e+003 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+6.51173978239227e+003 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+6.76217362200082e+003 4.11066194636002e+006 3.31036672976825e+004 4.87148046592702e+006 1.12577889208155e+002 2.04534594989060e+002 -9.46973993840244e+001
+7.01261387265470e+003 4.13865624731647e+006 8.43262200881610e+004 4.84752554645685e+006 1.10974451067678e+002 2.04522068770451e+002 -9.65980006629652e+001
+7.26305833650095e+003 4.16624808290492e+006 1.35544012418111e+005 4.82309538295852e+006 1.09360131698019e+002 2.04489616392809e+002 -9.84892761599641e+001
+7.51352624666757e+003 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+7.76398778067373e+003 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+8.01444503172579e+003 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+8.26487887133433e+003 4.11066194636002e+006 3.31036672976825e+004 4.87148046592702e+006 1.12577889208155e+002 2.04534594989060e+002 -9.46973993840244e+001
+8.51531912198821e+003 4.13865624731647e+006 8.43262200881610e+004 4.84752554645685e+006 1.10974451067678e+002 2.04522068770451e+002 -9.65980006629652e+001
+8.76576358583446e+003 4.16624808290492e+006 1.35544012418111e+005 4.82309538295852e+006 1.09360131698019e+002 2.04489616392809e+002 -9.84892761599641e+001
+9.01623149600109e+003 4.19343680538419e+006 1.86755985499612e+005 4.79819038770195e+006 -1.07734971340970e+002 -2.04437223264819e+002 1.00371195220197e+002
+9.26669303000725e+003 4.16624878022350e+006 1.35545316277361e+005 4.82309475495694e+006 -1.09360101910661e+002 -2.04489604574325e+002 9.84893337733877e+001
+9.51715028105930e+003 4.13865553583306e+006 8.43249088875115e+004 4.84752616576870e+006 -1.10974504206898e+002 -2.04522058136555e+002 9.65979621297499e+001
+9.76758412066785e+003 4.11066194636003e+006 3.31036672976825e+004 4.87148046592702e+006 -1.12577902717989e+002 -2.04534595010682e+002 9.46973832766004e+001
+
+
+END Ephemeris
+
+BEGIN MassProperties
+
+	Mass           1.000000000000e+003
+	InertiaXX      4.500000000000e+003
+	InertiaYX      0.000000000000e+000
+	InertiaYY      4.500000000000e+003
+	InertiaZX      0.000000000000e+000
+	InertiaZY      0.000000000000e+000
+	InertiaZZ      4.500000000000e+003
+
+END MassProperties
+
+BEGIN Attitude
+
+     	ScenarioEpoch		 3 Dec 2013 01:00:00.000000
+
+      BEGIN Profile
+          Name			 AircraftZDownAtt
+          UserNamed			 No
+          StartTime			 0.000000000000e+000
+          BEGIN AircraftZDown
+             	Azimuth		 0.000000000000e+000
+          END AircraftZDown
+      END Profile
+
+END Attitude
+
+BEGIN Swath
+
+    SwathType           ElevAngle
+    ElevationAngle      0.000000000000e+000
+    HalfAngle           0.000000000000e+000
+    Distance            0.000000000000e+000
+    RepType             NoSwath
+
+END Swath
+
+BEGIN Eclipse
+
+    Sunlight                Off
+    SunlightColor           #ffff00
+    SunlightLineStyle       0
+    SunlightLineWidth       3
+    SunlightMarkerStyle     18
+
+    Penumbra                Off
+    PenumbraColor           #87cefa
+    PenumbraLineStyle       0
+    PenumbraLineWidth       3
+    PenumbraMarkerStyle     18
+
+    Umbra                   Off
+    UmbraColor              #0000ff
+    UmbraLineStyle          0
+    UmbraLineWidth          3
+    UmbraMarkerStyle        18
+
+    SunlightPenumbraLine    Off
+    PenumbraUmbraLine       Off
+
+    UseCustomEclipseBodies  No
+
+END Eclipse
+
+BEGIN RealTimeDef
+
+	HistoryDuration     1.800000000000e+003
+	LookAheadDuration   1.800000000000e+003
+
+END RealTimeDef
+
+
+BEGIN LineOfSightModel
+
+	ModelType     CbShape
+	HeightAboveSurface   0.000000000000e+000
+
+END LineOfSightModel
+
+
+BEGIN Extensions
+    
+    BEGIN Graphics
+
+        BEGIN GenericGraphics
+            ShowPassLabel        Off
+            ShowPathLabel        Off
+            TransformTrajectory  On
+            MinGfxGndTrkTimeStep 0.000000000000e+000
+            MaxGfxGndTrkTimeStep 6.000000000000e+002
+            MinGfxOrbitTimeStep  0.000000000000e+000
+            MaxGfxOrbitTimeStep  6.000000000000e+002
+            ShowGlintPoint       Off
+            ShowGlintColor       #ffffff
+            ShowGlintStyle       2
+        END GenericGraphics
+
+        BEGIN AttributeData
+
+            AttributeType    Basic
+            ScenarioEpoch 3 Dec 2013 01:00:00.000000
+
+            ShowGfx          Off
+
+            IntvlHideShowAll Off
+
+            BEGIN DefaultAttributes
+                Show                 Off
+                Inherit              On
+                ShowLabel            On
+                ShowGndTrack         On
+                ShowGndMarker        On
+                ShowOrbit            On
+                ShowOrbitMarker      On
+                ShowElsetNum         Off
+                ShowSpecialSwath     On
+                MarkerColor          #4e00c4
+                GroundTrackColor     #4e00c4
+                SwathColor           #4e00c4
+                LabelColor           #4e00c4
+                LineStyle            0
+                LineWidth            1.000000
+                MarkerStyle          18
+                FontStyle            0
+                SwathLineStyle       0
+                SpecSwathLineStyle   1
+            END DefaultAttributes
+
+            BEGIN CustomIntervalList
+                BEGIN DefaultAttributes
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #0000ff
+                    GroundTrackColor     #0000ff
+                    SwathColor           #0000ff
+                    LabelColor           #0000ff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END DefaultAttributes
+            END CustomIntervalList
+
+            BEGIN AccessIntervalsAttributes
+                BEGIN AttrDuringAccess
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #0000ff
+                    GroundTrackColor     #0000ff
+                    SwathColor           #0000ff
+                    LabelColor           #0000ff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END AttrDuringAccess
+                BEGIN AttrDuringNoAccess
+                    Show                 Off
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ff0000
+                    GroundTrackColor     #ff0000
+                    SwathColor           #ff0000
+                    LabelColor           #ff0000
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END AttrDuringNoAccess
+            END AccessIntervalsAttributes
+
+            BEGIN TimeComponentIntervalsAttributes
+                BEGIN DefaultAttributes
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #0000ff
+                    GroundTrackColor     #0000ff
+                    SwathColor           #0000ff
+                    LabelColor           #0000ff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          4
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END DefaultAttributes
+            END TimeComponentIntervalsAttributes
+
+            BEGIN RealTimeAttributes
+                BEGIN HistoryAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #0000ff
+                    GroundTrackColor     #0000ff
+                    SwathColor           #0000ff
+                    LabelColor           #0000ff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END HistoryAttr
+                BEGIN SplineAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ffff00
+                    GroundTrackColor     #ffff00
+                    SwathColor           #ffff00
+                    LabelColor           #ffff00
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END SplineAttr
+                BEGIN LookAheadAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ffffff
+                    GroundTrackColor     #ffffff
+                    SwathColor           #ffffff
+                    LabelColor           #ffffff
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END LookAheadAttr
+                BEGIN DropOutAttr
+                    Show                 On
+                    Inherit              On
+                    ShowLabel            On
+                    ShowGndTrack         On
+                    ShowGndMarker        On
+                    ShowOrbit            On
+                    ShowOrbitMarker      On
+                    ShowElsetNum         Off
+                    ShowSpecialSwath     On
+                    MarkerColor          #ff0000
+                    GroundTrackColor     #ff0000
+                    SwathColor           #ff0000
+                    LabelColor           #ff0000
+                    LineStyle            0
+                    LineWidth            1.000000
+                    MarkerStyle          18
+                    FontStyle            0
+                    SwathLineStyle       0
+                    SpecSwathLineStyle   1
+                END DropOutAttr
+            END RealTimeAttributes
+        END AttributeData
+
+        BEGIN LeadTrailData
+                GtLeadingType             AllData
+                GtTrailingType            AllData
+                OrbitLeadingType          AllData
+                OrbitTrailingType         AllData
+        END LeadTrailData
+            BEGIN SaaData
+               ShowSaa             Off
+               ShowSaaFill         Off
+               SaaFillTranslucency 0.700000
+               TrackSaa            On
+               SaaAltitude         500000.000000
+            END SaaData
+            Begin GroundTracks
+                Begin GroundTrack
+                    CentralBody  Earth
+                End GroundTrack
+            End GroundTracks
+            BEGIN WaypointData
+                ShowWayptMarkers           Off
+                ShowWayptTurnMarkers       Off
+                ShowWayptMarkersExtEphem   Off
+                NewWayptMarkerShow         On
+                NewWayptShowLabel          Off
+                NewWayptMarkerStyle        3
+                WayptShow                  On
+                WayptShowLabel             Off
+                WayptMarkerStyle           3
+            END WaypointData
+        BEGIN EllipseSetGxData
+            BEGIN DefEllipseSetGx
+                ShowStatic     On
+                ShowDynamic    On
+                UseLastDynPos  Off
+                HoldLastDynPos Off
+                ShowName       Off
+                ShowMarker     On
+                MarkerStyle    0
+                LineStyle      0
+                LineWidth      1.000000
+            END DefEllipseSetGx
+        END EllipseSetGxData
+    END Graphics
+    
+    BEGIN LaserCAT
+    END LaserCAT
+    
+    BEGIN ExternData
+    END ExternData
+    
+    BEGIN RFI
+    END RFI
+    
+    BEGIN ADFFileData
+    END ADFFileData
+    
+    BEGIN AccessConstraints
+		LineOfSight   IncludeIntervals 
+    END AccessConstraints
+    
+    BEGIN ObjectCoverage
+    END ObjectCoverage
+    
+    BEGIN Desc
+    END Desc
+    
+    BEGIN Atmosphere
+<!-- STKv4.0 Format="XML" -->
+<STKOBJECT>
+<OBJECT Class = "AtmosphereExtension" Name = "STK_Atmosphere_Extension">
+    <OBJECT Class = "link" Name = "AtmosAbsorptionModel">
+        <OBJECT Class = "AtmosphericAbsorptionModel" Name = "Simple_Satcom">
+            <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+            <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+            <OBJECT Class = "string" Name = "Description"> &quot;Simple Satcom gaseous absorption model&quot; </OBJECT>
+            <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+            <OBJECT Class = "double" Name = "SurfaceTemperature"> 293.15 K </OBJECT>
+            <OBJECT Class = "string" Name = "Type"> &quot;Simple Satcom&quot; </OBJECT>
+            <OBJECT Class = "string" Name = "UserComment"> &quot;Simple Satcom gaseous absorption model&quot; </OBJECT>
+            <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+            <OBJECT Class = "double" Name = "WaterVaporConcentration"> 7.5 g*m^-3 </OBJECT>
+        </OBJECT>
+    </OBJECT>
+    <OBJECT Class = "string" Name = "Category"> &quot;&quot; </OBJECT>
+    <OBJECT Class = "bool" Name = "Clonable"> True </OBJECT>
+    <OBJECT Class = "string" Name = "Description"> &quot;STK Atmosphere Extension&quot; </OBJECT>
+    <OBJECT Class = "bool" Name = "EnableLocalRainData"> False </OBJECT>
+    <OBJECT Class = "bool" Name = "InheritAtmosAbsorptionModel"> True </OBJECT>
+    <OBJECT Class = "double" Name = "LocalRainIsoHeight"> 2000 m </OBJECT>
+    <OBJECT Class = "double" Name = "LocalRainRate"> 1 mm*hr^-1 </OBJECT>
+    <OBJECT Class = "double" Name = "LocalSurfaceTemp"> 293.15 K </OBJECT>
+    <OBJECT Class = "bool" Name = "ReadOnly"> False </OBJECT>
+    <OBJECT Class = "string" Name = "Type"> &quot;STK Atmosphere Extension&quot; </OBJECT>
+    <OBJECT Class = "string" Name = "UserComment"> &quot;STK Atmosphere Extension&quot; </OBJECT>
+    <OBJECT Class = "string" Name = "Version"> &quot;1.0.0 a&quot; </OBJECT>
+</OBJECT>
+</STKOBJECT>
+    END Atmosphere
+    
+    BEGIN RCS
+	Inherited          True
+	LinearClutterCoef        0.000000e+000
+	BEGIN RCSBAND
+		LinearConstantValue      1.000000e+000
+		Swerling      0
+		BandData      2.997920e+006 3.000000e+011
+	END RCSBAND
+    END RCS
+    
+    BEGIN Ellipse
+        TimesTrackVehStartTime Yes
+    END Ellipse
+    
+    BEGIN Crdn
+    END Crdn
+    
+    BEGIN VO
+    END VO
+
+END Extensions
+
+BEGIN SubObjects
+
+Class Transmitter
+
+	adsb_out11
+
+END Class
+
+END SubObjects
+
+END Aircraft
+

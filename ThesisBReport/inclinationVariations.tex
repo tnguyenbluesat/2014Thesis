@@ -79,13 +79,13 @@ The results for inclination variations against the resulting coverage gap fracti
 	\label{fig:InclinationVsRxPower12sat}
 \end{figure}
 \subsubsection{Discussion}
-At lower inclinations, the ground tracks of the satellite have a significant amount of coincidence with the flight path between LAX and Sydney, as seen in Figure \ref{fig:12sat_30deg}. This results in the LAX-Sydney flight path having an optimised maximum coverage time and coverage fraction at 30 degrees inclination as can be seen on Figures \ref{fig:InclinationVsCovGap12sat} and \ref{fig:InclinationVsMaxGap12sat}. Increasing inclinations resulted in a higher coverage gap ratio, before settling at 60 degrees and remaining constant through to 90 degrees.
+At lower inclinations, the ground tracks of the satellite have a significant degree of coincidence with the flight path between LAX and Sydney, as seen in Figure \ref{fig:12sat_30deg}. This results in the LAX-Sydney flight path having an optimised maximum coverage time and coverage fraction at 30 degrees inclination as can be seen on Figures \ref{fig:InclinationVsCovGap12sat} and \ref{fig:InclinationVsMaxGap12sat}. Increasing inclinations resulted in a higher coverage gap ratio, before settling at 60 degrees and remaining constant through to 90 degrees.
 
-The relatively high inclination of the LAX-Heathrow flight path resulted in poor coverage performance with the constellation at low inclinations. At low inclinations there were few opportunities for line of sight to be established between the LAX-Heathrow flight, with access periods only occurring when satellites reached high latitudes at the same time as the flight was at a low latitude. The resulting maximum gap (not shown in Figure \ref{fig:InclinationVsMaxGap12sat} for scale purposes) was 29 866 seconds (8 hours and 18 minutes) - more than half the duration of the flight. The aggregate result also yielded a poor coverage gap fraction performance below 50 degrees, as seen in Figure \ref{fig:InclinationVsCovGap12sat}. The effect sharply decreased with higher inclinations, with coverage gaps lowering to an acceptable level after 50 degrees.
+The relatively high inclination of the LAX-Heathrow flight path resulted in poor coverage performance with the constellation at low inclinations. At low inclinations there were few opportunities for line of sight to be established between the LAX-Heathrow flight, with access periods only occurring when satellites reached high latitudes at the same time as the flight was at a low latitude. The resulting maximum gap (not shown in Figure \ref{fig:InclinationVsMaxGap12sat} for scale purposes) approximately 8 hours and 18 minutes - more than half the duration of the flight. The aggregate result also yielded a poor coverage gap fraction performance below 50 degrees, as seen in Figure \ref{fig:InclinationVsCovGap12sat}. The effect sharply decreased with higher inclinations, with coverage gaps lowering to an acceptable level after 50 degrees.
 
-All flight paths observed a spike in maximum coverage gap time with satellites inclined at 70 degrees, as seen in Figure \ref{fig:InclinationVsMaxGap12sat}. This occurred due to the geometry of the constellation and the effect of the Earth's rotation under the constellation. Figure \ref{fig:70_deg_precess_1_edited} shows that the effective width between the two orbital planes of the satellite is quite high, creating an effective radio `dead zone' in which the pictured plane cannot access a satellite. Although the plane continues to travel out of the `dead zone', the rotation of the Earth underneath the constellation moves the position of the plane back into the `dead zone', as demonstrated in  Figure \ref{fig:70_deg_precess_2_edited}. At inclinations of 80 degrees and 90 degrees this effect is mediated by the changing geometry and intersections between satellite ground tracks and flight paths, resulting in more acceptable coverage gaps.
+All flight paths observed a spike in maximum coverage gap time with satellites inclined at 70 degrees, as seen in Figure \ref{fig:InclinationVsMaxGap12sat}. This occurred due to the geometry of the constellation and the effect of the Earth's rotation under the constellation. Figure \ref{fig:70_deg_precess_1_edited} shows that the effective width between the two orbital planes of the satellite is quite high, creating an effective radio dead zone in which the pictured plane cannot access a satellite. Although the plane continues to travel out of the dead zone, the rotation of the Earth underneath the constellation moves the position of the plane back into the dead zone, as demonstrated in  Figure \ref{fig:70_deg_precess_2_edited}. At inclinations of 80 degrees and 90 degrees this effect is mediated by the changing geometry and intersections between satellite ground tracks and flight paths, resulting in more acceptable coverage gaps.
 
-There is relatively little change in the minimum received isotropic powers, with values ranging between -139.9 dBW and -140.02 dBW as seen in Figure \ref{fig:InclinationVsRxPower12sat}. The observed trend occurs due to the satellite having a higher chance of being `directly overhead' with higher inclinations, resulting in a shorted free-path propagation distance for the ADS-B signal. However this effect was quite small, only resulting in a net change of 0.12 dBW across the experimented range.
+There is relatively little change in the minimum received isotropic powers, with values ranging between -139.9 dBW and -140.02 dBW as seen in Figure \ref{fig:InclinationVsRxPower12sat}. The observed trend occurs due to the satellite having a higher chance of being directly overhead with higher inclinations, resulting in a shorted free-path propagation distance for the ADS-B signal. However this effect was quite small, only resulting in a net change of 0.12 dBW across the experimented range.
 
 \begin{figure}[htpb]
 	\centering
@@ -93,7 +93,7 @@ There is relatively little change in the minimum received isotropic powers, with
 	
 	\includegraphics[width=\textwidth]{Pictures/70_deg_precess_1_edited.png}
 	
-	\caption{Flight initially in `dead zone' of no ADS-B access between planes}
+	\caption{Flight initially in dead zone of no ADS-B access between planes}
 	\label{fig:70_deg_precess_1_edited}
 	\end{subfigure}
 	
@@ -101,10 +101,10 @@ There is relatively little change in the minimum received isotropic powers, with
 	\includegraphics[width=\textwidth]{Pictures/70_deg_precess_2_edited.png}
 	
 	
-	\caption{Rotation of Earth eastward keeps the flight in the `dead zone' for an extended period of time}
+	\caption{Rotation of Earth eastward keeps the flight in the dead zone for an extended period of time}
 	\label{fig:70_deg_precess_2_edited}
 	\end{subfigure}
 		
 	
-	\caption{Flight in `dead zone' between satellite planes, inclined at 70 degrees. View from North Pole}
+	\caption{Flight in dead zone between satellite planes, inclined at 70 degrees. View from North Pole}
 \end{figure} 

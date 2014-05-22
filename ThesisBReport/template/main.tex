@@ -1,0 +1,190 @@
+%Assignment 2
+
+\documentclass[12pt, a4paper, subeqn]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\title{Thesis A}
+\author{Thien Huynh Nguyen\\
+	Student Number: 3288816}
+\date{\today}
+
+% Comment the following to have chapters numbered without interruption (numbering through parts)
+%\makeatletter\@addtoreset{section}{part}\makeatother%
+
+\topmargin=-25mm
+\headheight = 30mm
+\headsep = 5mm
+\textheight=215mm
+\oddsidemargin=-5mm
+\textwidth=170mm
+\footskip=15mm
+\marginparwidth = 0mm
+%\footheight=10mm
+
+\parskip=12pt
+\parindent=0pt
+
+\setlength{\jot}{12pt}
+
+%Define counter depths for TOC and seciton numbers
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{3}
+
+
+\usepackage{amsmath,amsfonts,amssymb,verbatim, fancyvrb}
+\usepackage{color}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{pbox}
+\usepackage{placeins, float}
+\usepackage{multirow}
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0.5pt}
+
+
+%nomenclature
+\usepackage{nomencl}%   nomenclature generation via makeindex
+\makenomenclature
+\usepackage{longtable}
+
+%subifugres
+\usepackage{subcaption}
+
+%set font size and spacing
+\usepackage{setspace}
+\onehalfspacing
+
+%Equation and figure numbering
+\usepackage{booktabs}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+\numberwithin{equation}{chapter}
+
+%Number mathetmatical Theorems
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}
+
+%Cite references
+\usepackage{cite}
+\usepackage[nottoc,numbib]{tocbibind}
+
+%array
+\usepackage{array}
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+\renewcommand{\arraystretch}{1.4}
+
+%embed PDF files
+\usepackage{pdfpages}
+
+%section header spacing
+\usepackage[compact]{titlesec} 
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titlespacing{\subsubsection}{0pt}{0pt}{0pt}
+
+%Header and footer
+\usepackage{fancyhdr, lastpage, datetime, wrapfig}
+\longdate
+
+
+
+%\usepackage{glossaries}
+%  \makeglossaries
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+
+\begin{comment}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[c]{ 
+\begin{minipage}{0.27\paperwidth}
+\begin{flushleft}
+\includegraphics[height=17mm]{UNSWlogo.png}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.27\paperwidth}
+\begin{center}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.27\paperwidth}
+\begin{flushright} \parbox{50mm}{	\begin{tabbing}
+		\textbf{Student Number:} \=  3288816 \\
+		\textbf{Date:} \> \today \\
+		\textbf{Thesis} \> \textbf{A}  \\
+		\textbf{Page:} \> \textbf{\thepage} of \pageref{LastPage}
+	\end{tabbing}}
+\end{flushright}
+\end{minipage}
+}
+
+\end{comment}
+
+
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+%The following code removes the chapter number from the biblography and changes 'Bibliography' to 'references' for a report
+\renewcommand{\bibname}{References}
+\makeatletter
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\bibname}% <-- this line was changed from \chapter* to \section*
+      \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\makeatother
+
+
+\begin{document}
+\doublespacing
+\pagenumbering{roman}
+
+\include{titlepage}
+\newpage
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\fancyhead[L]{\textit{NOMENCLATURE}}
+\include{nomenclature}
+\fancyhead[L]{\slshape \leftmark}
+
+
+\newpage
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\newpage
+\addcontentsline{toc}{part}{Appendices}
+\appendix
+
+
+
+
+\end{document}

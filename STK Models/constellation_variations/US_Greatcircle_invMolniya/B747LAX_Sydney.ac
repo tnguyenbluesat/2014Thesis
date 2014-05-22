@@ -2676,12 +2676,12 @@ BEGIN Extensions
             AttributeType    Basic
             ScenarioEpoch 3 Dec 2013 01:00:00.000000
 
-            ShowGfx          On
+            ShowGfx          Off
 
             IntvlHideShowAll Off
 
             BEGIN DefaultAttributes
-                Show                 On
+                Show                 Off
                 Inherit              On
                 ShowLabel            On
                 ShowGndTrack         On

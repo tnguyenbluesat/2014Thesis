@@ -216,7 +216,7 @@ BEGIN MapData
             CoordinateSys        ECF
             UseBackgroundImage   On
             UseBingForBackground On
-            BingType             Aerial
+            BingType             Hybrid
             BingLogoHorizAlign   Right
             BingLogoVertAlign    Bottom
             BackgroundImageFile  Basic.bmp
@@ -381,7 +381,7 @@ BEGIN MapData
             UmbraLineColor               #000000
             UmbraLineStyle               0
             UmbraLineWidth               2
-            FillUmbra                    On
+            FillUmbra                    Off
             UmbraFillColor               #000000
             ShowSunlightLine             Off
             SunlightLineColor            #ffff00

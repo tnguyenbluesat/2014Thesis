@@ -1887,10 +1887,10 @@ BEGIN Extensions
                 ShowOrbitMarker      On
                 ShowElsetNum         Off
                 ShowSpecialSwath     On
-                MarkerColor          #0000ff
-                GroundTrackColor     #0000ff
-                SwathColor           #0000ff
-                LabelColor           #0000ff
+                MarkerColor          #ff0e0e
+                GroundTrackColor     #ff0e0e
+                SwathColor           #ff0e0e
+                LabelColor           #ff0e0e
                 LineStyle            0
                 LineWidth            1.000000
                 MarkerStyle          18

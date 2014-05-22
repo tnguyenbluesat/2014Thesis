@@ -1,6 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 A level-1 auxiliary file: TitlePage.aux
+A level-1 auxiliary file: publications.aux
 A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: nomenclature.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: background_theory.aux
 A level-1 auxiliary file: lit_review.aux
@@ -12,27 +14,30 @@ A level-1 auxiliary file: results.aux
 A level-1 auxiliary file: data_processing.aux
 A level-1 auxiliary file: analysis.aux
 A level-1 auxiliary file: weight_matrix.aux
+A level-1 auxiliary file: mh370.aux
+A level-1 auxiliary file: conclusions.aux
+A level-1 auxiliary file: future_work.aux
 The style file: IEEEtran.bst
 A level-1 auxiliary file: stats.aux
 Database file #1: references.bib
-I was expecting an "="---line 48 of file references.bib
+I was expecting an "="---line 58 of file references.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 145 of file references.bib
+Unbalanced braces---line 155 of file references.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--string name "september" is undefined
---line 177 of file references.bib
-I was expecting an "="---line 257 of file references.bib
+--line 187 of file references.bib
+I was expecting an "="---line 267 of file references.bib
  : journal 
  :         {Iridium Everywhere},
 I'm skipping whatever remains of this entry
 Warning--string name "sept" is undefined
---line 332 of file references.bib
+--line 342 of file references.bib
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.

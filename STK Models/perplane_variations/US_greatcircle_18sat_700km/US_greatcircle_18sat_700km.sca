@@ -1,630 +1,10 @@
 stk.v.10.0
 WrittenBy    STK_v10.0.2
 BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_6/Receiver/ADSB_sat_rx9311
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_5/Receiver/ADSB_sat_rx931
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_1/Receiver/adsb_satrcvr2
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_2/Receiver/adsb_satrcvr21
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_3/Receiver/adsb_satrcvr211
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_4/Receiver/adsb_satrcvr2111
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_1/Receiver/ADSB_sat_rx41
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_3/Receiver/ADSB_sat_rx42
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_5/Receiver/ADSB_sat_rx422
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_6/Receiver/ADSB_sat_rx4221
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_4/Receiver/ADSB_sat_rx421
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_3/Receiver/ADSB_sat_rx9
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_2/Receiver/ADSB_sat_rx92
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_4/Receiver/ADSB_sat_rx93
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_6/Receiver/adsb_satrcvr21121
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_2/Receiver/ADSB_sat_rx4
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_1/Receiver/ADSB_sat_rx91
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_5/Receiver/adsb_satrcvr2112
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_6/Receiver/ADSB_sat_rx9311
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_5/Receiver/ADSB_sat_rx931
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_1/Receiver/adsb_satrcvr2
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -655,7 +35,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_2/Receiver/adsb_satrcvr21
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -686,7 +66,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_3/Receiver/adsb_satrcvr211
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -717,348 +97,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_4/Receiver/adsb_satrcvr2111
 
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_1/Receiver/ADSB_sat_rx41
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_3/Receiver/ADSB_sat_rx42
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_5/Receiver/ADSB_sat_rx422
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_6/Receiver/ADSB_sat_rx4221
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_4/Receiver/ADSB_sat_rx421
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_3/Receiver/ADSB_sat_rx9
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_2/Receiver/ADSB_sat_rx92
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_4/Receiver/ADSB_sat_rx93
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_6/Receiver/adsb_satrcvr21121
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_2/Receiver/ADSB_sat_rx4
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_1/Receiver/ADSB_sat_rx91
-
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1089,7 +128,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_5/Receiver/adsb_satrcvr2112
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1117,10 +156,10 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_6/Receiver/ADSB_sat_rx9311
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_6/Receiver/adsb_satrcvr21121
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1148,10 +187,909 @@ BEGIN Access
 END Access
 
 BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_1/Receiver/ADSB_sat_rx41
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_2/Receiver/ADSB_sat_rx4
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_3/Receiver/ADSB_sat_rx42
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_4/Receiver/ADSB_sat_rx421
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_5/Receiver/ADSB_sat_rx422
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          Yes
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_6/Receiver/ADSB_sat_rx4221
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_1/Receiver/ADSB_sat_rx91
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_2/Receiver/ADSB_sat_rx92
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_3/Receiver/ADSB_sat_rx9
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_4/Receiver/ADSB_sat_rx93
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_5/Receiver/ADSB_sat_rx931
 
-    IsComputed               Yes
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Heathrow/Transmitter/adsb_out6
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_6/Receiver/ADSB_sat_rx9311
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_1/Receiver/adsb_satrcvr2
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_2/Receiver/adsb_satrcvr21
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_3/Receiver/adsb_satrcvr211
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_4/Receiver/adsb_satrcvr2111
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_5/Receiver/adsb_satrcvr2112
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_6/Receiver/adsb_satrcvr21121
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_1/Receiver/ADSB_sat_rx41
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_2/Receiver/ADSB_sat_rx4
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_3/Receiver/ADSB_sat_rx42
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_4/Receiver/ADSB_sat_rx421
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_5/Receiver/ADSB_sat_rx422
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          Yes
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_6/Receiver/ADSB_sat_rx4221
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_1/Receiver/ADSB_sat_rx91
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_2/Receiver/ADSB_sat_rx92
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_3/Receiver/ADSB_sat_rx9
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_4/Receiver/ADSB_sat_rx93
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_5/Receiver/ADSB_sat_rx931
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Narita/Transmitter/adsb_out6211
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_6/Receiver/ADSB_sat_rx9311
+
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1182,7 +1120,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_1/Receiver/adsb_satrcvr2
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1213,7 +1151,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_2/Receiver/adsb_satrcvr21
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1244,7 +1182,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_3/Receiver/adsb_satrcvr211
 
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1275,348 +1213,7 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_4/Receiver/adsb_satrcvr2111
 
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_1/Receiver/ADSB_sat_rx41
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_3/Receiver/ADSB_sat_rx42
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_5/Receiver/ADSB_sat_rx422
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_6/Receiver/ADSB_sat_rx4221
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_4/Receiver/ADSB_sat_rx421
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_3/Receiver/ADSB_sat_rx9
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_2/Receiver/ADSB_sat_rx92
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_4/Receiver/ADSB_sat_rx93
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_6/Receiver/adsb_satrcvr21121
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_2/Receiver/ADSB_sat_rx4
-
-    IsComputed               Yes
-    UpdateOnReference        Yes
-    DupIsDifferent           No
-    UIOrderReversed          No
-    UITimePeriod             Object
-    UseLightTimeDelay        Yes
-    ClockHost                Base
-    TimeSense                Transmit
-    AberrationType           Annual
-    TimeDelayConvergence     5.000000e-005
-    MaxTimeStep              3.600000e+002
-    MinTimeStep              1.000000e-002
-    TimeConvergence          5.000000e-003
-    AbsValueConvergence      1.000000e-014
-    RelValueConvergence      1.000000e-008
-    DetectEventsUsingSamplesOnly No
-    Show                     Yes
-    Inherit                  Yes
-    ShowIV                   Yes
-    ShowLineGfx              Yes
-    ShowHiliteGfx            Yes
-    LineWidth                1.000000e+000
-    BEGIN  Crdn
-    END  Crdn
-
-END Access
-
-BEGIN Access 
-        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
-        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_1/Receiver/ADSB_sat_rx91
-
-    IsComputed               Yes
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
@@ -1647,7 +1244,410 @@ BEGIN Access
         Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
         Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_5/Receiver/adsb_satrcvr2112
 
-    IsComputed               Yes
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p1_6/Receiver/adsb_satrcvr21121
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_1/Receiver/ADSB_sat_rx41
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_2/Receiver/ADSB_sat_rx4
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_3/Receiver/ADSB_sat_rx42
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_4/Receiver/ADSB_sat_rx421
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_5/Receiver/ADSB_sat_rx422
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          Yes
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p2_6/Receiver/ADSB_sat_rx4221
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_1/Receiver/ADSB_sat_rx91
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_2/Receiver/ADSB_sat_rx92
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_3/Receiver/ADSB_sat_rx9
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_4/Receiver/ADSB_sat_rx93
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_5/Receiver/ADSB_sat_rx931
+
+    IsComputed               No
+    UpdateOnReference        Yes
+    DupIsDifferent           No
+    UIOrderReversed          No
+    UITimePeriod             Object
+    UseLightTimeDelay        Yes
+    ClockHost                Base
+    TimeSense                Transmit
+    AberrationType           Annual
+    TimeDelayConvergence     5.000000e-005
+    MaxTimeStep              3.600000e+002
+    MinTimeStep              1.000000e-002
+    TimeConvergence          5.000000e-003
+    AbsValueConvergence      1.000000e-014
+    RelValueConvergence      1.000000e-008
+    DetectEventsUsingSamplesOnly No
+    Show                     Yes
+    Inherit                  Yes
+    ShowIV                   Yes
+    ShowLineGfx              Yes
+    ShowHiliteGfx            Yes
+    LineWidth                1.000000e+000
+    BEGIN  Crdn
+    END  Crdn
+
+END Access
+
+BEGIN Access 
+        Scenario/US_greatcircle_18sat_700km/Aircraft/B747LAX_Sydney/Transmitter/adsb_out6212
+        Scenario/US_greatcircle_18sat_700km/Satellite/700km_p3_6/Receiver/ADSB_sat_rx9311
+
+    IsComputed               No
     UpdateOnReference        Yes
     DupIsDifferent           No
     UIOrderReversed          No
